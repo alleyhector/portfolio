@@ -1,8 +1,8 @@
 ---
 title: 'Hi, my name is'
-name: 'Brittany Chiang'
+name: 'Alley Hector'
 subtitle: 'I build things for the web.'
 contactText: 'Get In Touch'
 ---
 
-I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional, high-quality websites and applications.
+I'm a web developer based in Portland, OR specializing in building (and occasionally designing) exceptional, high-quality websites and applications.
