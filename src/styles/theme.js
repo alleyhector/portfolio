@@ -53,9 +53,13 @@ const theme = {
   },
 
   fonts: {
+    Main:
+      'Roboto Condensed, Roboto, Lato, Arial, sans-serif',
+    Highlight:
+      'Raleway, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif',
     Calibre:
-      'Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif',
-    SFMono: 'SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace',
+      'Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif', // old main
+    SFMono: 'SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace', // old highlight
   },
 
   fontSizes: {

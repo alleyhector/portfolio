@@ -67,7 +67,7 @@ const StyledTable = styled.table`
     }
     &.tech {
       font-size: ${fontSizes.xs};
-      font-family: ${fonts.SFMono};
+      font-family: ${fonts.Highlight};
     }
     &.links {
       span {

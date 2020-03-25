@@ -31,7 +31,7 @@ const Sidebar = styled.aside`
   position: relative;
   right: 0;
   margin-left: auto;
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.Highlight};
   box-shadow: -10px 0px 30px -15px ${colors.shadowNavy};
   ${media.thone`padding: 25px;`};
   ${media.phablet`width: 75vw;`};

@@ -17,7 +17,7 @@ const Heading = styled.h3`
     counter-increment: section;
     content: '0' counter(section) '.';
     margin-right: 10px;
-    font-family: ${fonts.SFMono};
+    font-family: ${fonts.Highlight};
     font-weight: normal;
     color: ${colors.green};
     font-size: ${fontSizes.xl};

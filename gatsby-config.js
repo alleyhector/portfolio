@@ -144,5 +144,20 @@ module.exports = {
         trackingId: config.googleAnalyticsID,
       },
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Raleway`,
+            variants: [`400`, `700`, `400i`, `700i`]
+          },
+          {
+            family: `Roboto Condensed`,
+            variants: [`400`, `700`, `400i`, `700i`]
+          },
+        ],
+      },
+    },
   ],
 };

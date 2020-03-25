@@ -46,7 +46,7 @@ const StyledSocialLink = styled.a`
   }
 `;
 const StyledMetadata = styled.div`
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.Highlight};
   font-size: ${fontSizes.xs};
   line-height: 1;
 `;
