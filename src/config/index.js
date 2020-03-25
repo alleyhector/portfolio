@@ -1,38 +1,38 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'Alley Hector | Developer, Designer, Content Creator',
   siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in developing (and occasionally designing) exceptional, high-quality websites and applications.',
+    'Alley Hector is a designer, developer, software engineer and content curator and creator based in Portland, OR who specializes in...',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Alley Hector, Alley, Hector, qpdx, alleyhector, software engineer, front-end engineer, web developer, javascript, smith',
+  siteUrl: 'https://outandabout.space',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  name: 'Alley Hector',
+  location: 'Portland, OR',
+  email: 'alley@qpdx.com',
+  github: 'https://github.com/alleyhector',
+  twitterHandle: '@qpdx',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/alleyhector',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/allisonhector',
     },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
+    // {
+    //   name: 'Codepen',
+    //   url: 'https://codepen.io/bchiang7',
+    // },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/alleyhector',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/qpdx',
     },
   ],
 
@@ -56,9 +56,9 @@ module.exports = {
   ],
 
   navHeight: 100,
-  greenColor: '#64ffda',
-  navyColor: '#0a192f',
-  darkNavyColor: '#020c1b',
+  greenColor: '#FAF1CF',
+  navyColor: '#3F6844',
+  darkNavyColor: '#3F6844',
 
   srConfig: (delay = 200) => ({
     origin: 'bottom',
