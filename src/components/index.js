@@ -13,6 +13,7 @@ import Hero from './sections/hero';
 import About from './sections/about';
 import Jobs from './sections/jobs';
 import Featured from './sections/featured';
+import Writing from './sections/writing';
 import Projects from './sections/projects';
 import Contact from './sections/contact';
 
@@ -29,6 +30,7 @@ export {
   About,
   Jobs,
   Featured,
+  Writing,
   Projects,
   Contact,
   Footer,
