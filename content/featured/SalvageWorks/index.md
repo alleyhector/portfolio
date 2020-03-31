@@ -1,14 +1,12 @@
 ---
-date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
+date: '1'
+title: 'Salvage Works'
+cover: './salvageworks.png'
+github: 'https://www.salvageworkspdx.com/'
 external: 'https://spotify-profile.herokuapp.com/'
 tech:
-  - React
-  - Node.js
-  - Express
-  - Spotify Web API
+  - Design
+  - Shopify
 showInProjects: true
 ---
 
