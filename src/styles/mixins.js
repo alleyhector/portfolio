@@ -37,7 +37,7 @@ const mixins = {
   `,
 
   inlineLink: css`
-    display: inline-block;
+    display: inline;
     text-decoration: none;
     text-decoration-skip-ink: auto;
     position: relative;
@@ -59,7 +59,7 @@ const mixins = {
     }
     &:after {
       content: '';
-      display: block;
+      display: inline;
       width: 0;
       height: 1px;
       position: relative;

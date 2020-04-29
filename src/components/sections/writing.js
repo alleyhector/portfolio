@@ -60,7 +60,7 @@ const StyledDescription = styled.div`
     }
   `};
   p {
-    margin: 0;
+    margin: 20px 0;
   }
   a {
     ${mixins.inlineLink};
@@ -227,7 +227,7 @@ const Featured = ({ data }) => {
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <StyledContent>
-                  <StyledLabel>Featured Project</StyledLabel>
+                  <StyledLabel>Featured Piece</StyledLabel>
                   <StyledProjectName>
                     {external ? (
                       <a

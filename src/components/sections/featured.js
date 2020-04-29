@@ -60,7 +60,7 @@ const StyledDescription = styled.div`
     }
   `};
   p {
-    margin: 0;
+    margin: 20px 0;
   }
   a {
     ${mixins.inlineLink};
