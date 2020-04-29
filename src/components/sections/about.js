@@ -17,7 +17,7 @@ const StyledFlexContainer = styled.div`
 `;
 const StyledContent = styled.div`
   width: 60%;
-  max-width: 480px;
+  max-width: 535px;
   ${media.tablet`width: 100%;`};
   a {
     ${mixins.inlineLink};
@@ -36,7 +36,7 @@ const Skill = styled.li`
   margin-bottom: 10px;
   padding-left: 20px;
   font-family: ${fonts.Highlight};
-  font-size: ${fontSizes.smish};
+  font-size: ${fontSizes.sm};
   color: ${colors.slate};
   &:before {
     content: '▹';

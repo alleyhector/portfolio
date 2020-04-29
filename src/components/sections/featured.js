@@ -25,7 +25,7 @@ const StyledContent = styled.div`
   ${media.phablet`padding: 30px 25px 20px;`};
 `;
 const StyledLabel = styled.h4`
-  font-size: ${fontSizes.smish};
+  font-size: ${fontSizes.sm};
   font-weight: normal;
   color: ${colors.green};
   font-family: ${fonts.Highlight};
@@ -77,7 +77,7 @@ const StyledTechList = styled.ul`
 
   li {
     font-family: ${fonts.Highlight};
-    font-size: ${fontSizes.smish};
+    font-size: ${fontSizes.sm};
     color: ${colors.slate};
     margin-right: ${theme.margin};
     margin-bottom: 7px;

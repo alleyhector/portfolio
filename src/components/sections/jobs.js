@@ -71,7 +71,7 @@ const StyledTabButton = styled.button`
   text-align: left;
   white-space: nowrap;
   font-family: ${fonts.Highlight};
-  font-size: ${fontSizes.smish};
+  font-size: ${fontSizes.sm};
   color: ${props => (props.isActive ? colors.green : colors.lightGrey)};
   ${media.tablet`padding: 0 15px 2px;`};
   ${media.thone`
@@ -82,8 +82,7 @@ const StyledTabButton = styled.button`
     border-bottom: 2px solid ${colors.darkGrey};
     min-width: 120px;
   `};
-  &:hover,
-  &:focus {
+  &:hover{
     background-color: ${colors.lightNavy};
   }
 `;
@@ -144,7 +143,7 @@ const StyledCompany = styled.span`
 `;
 const StyledJobDetails = styled.h5`
   font-family: ${fonts.Highlight};
-  font-size: ${fontSizes.smish};
+  font-size: ${fontSizes.sm};
   font-weight: normal;
   letter-spacing: 0.05em;
   color: ${colors.lightSlate};

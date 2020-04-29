@@ -32,7 +32,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${colors.slate};
     line-height: 1.3;
     font-family: ${fonts.Main};
-    font-size: ${fontSizes.xl};
+    font-size: ${fontSizes.lg};
     ${media.phablet`font-size: ${fontSizes.lg};`}
 
     &.hidden {

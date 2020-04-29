@@ -66,7 +66,7 @@ const StyledTable = styled.table`
       font-size: ${fontSizes.lg};
     }
     &.tech {
-      font-size: ${fontSizes.xs};
+      font-size: ${fontSizes.sm};
       font-family: ${fonts.Highlight};
     }
     &.links {
