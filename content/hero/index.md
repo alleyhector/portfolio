@@ -1,8 +1,8 @@
 ---
 title: 'Hi, my name is'
 name: 'Alley Hector'
-subtitle: 'I build things for the web.'
+subtitle: 'I write & build things for the web.'
 contactText: 'Get In Touch'
 ---
 
-I'm a web developer based in Portland, OR specializing in building (and occasionally designing) exceptional, high-quality websites and applications.
+I'm a content creator, editor, web developer & designer  based in Portland, OR who can help imagine, create and built you or your company's online presence from beginning to end.

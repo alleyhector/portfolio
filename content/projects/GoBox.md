@@ -1,0 +1,15 @@
+---
+date: '2018-06-01'
+title: 'Go Box'
+github: ''
+external: 'https://www.goboxpdx.com'
+tech:
+  - Swift
+  - Wordpress
+  - App Dev
+  - Front End Dev
+company: 'Go Box'
+showInProjects: true
+---
+
+Jumped in to clean up some design and implementation for Go Box, a company that provides subscriptions for reusable to go boxes so that takeout lovers in Portland and San Francisco can support small business and the environment at the same time. I worked with both their front facing website as well as their iOS app.

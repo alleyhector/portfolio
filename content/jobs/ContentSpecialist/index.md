@@ -1,13 +1,12 @@
 ---
 date: '2020-03-01'
-title: 'Freelance Writer & Editor'
-company: 'Various'
+title: 'Content Specialist'
+company: 'Travel Portland'
 location: 'Portland, OR'
-range: 'July 2003 – present'
-url: 'https://alleyhector.contently.com/'
+range: 'December 2018 – present'
+url: 'https://travelportland.com/'
 ---
 
-- Wrote, edited and copy edited for various news, culture, marketing and promotional outlet
-- Publications I have contributed to include <em>Nylon, The Advocate, INTO, The Daily Dot,
-Autostraddle, Just Out, After Ellen, OregonLive.com, DVD Talk, Willamette Week</em>
-- Companies I have worked with on promotional materials include Mad Fish Digital, High Viz Digital, Milestone, Compassion Digital
+- Managed content and migration
+- Wrote and edited copy for the Travel Portland website
+- Performed SEO Keyword writing and research

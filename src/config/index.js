@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Alley Hector | Developer, Designer, Content Creator',
   siteDescription:
-    'Alley Hector is a designer, developer, software engineer and content curator and creator based in Portland, OR who specializes in...',
+    'Portfolio for Alley Hector content creator, editor, web developer & designer based in Portland, OR who can help imagine, create and built you or your online presence from beginning to end.',
   siteKeywords:
     'Alley Hector, Alley, Hector, qpdx, alleyhector, software engineer, front-end engineer, web developer, javascript, smith',
   siteUrl: 'https://outandabout.space',

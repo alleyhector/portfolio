@@ -2,4 +2,4 @@
 title: 'Get In Touch'
 ---
 
-Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!
+I want to know your vision so that I can help you get there. Whether you're looking for some content creation or design and technical building drop me a line and I'll let you know how I can help.
