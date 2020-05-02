@@ -2,11 +2,11 @@ const theme = {
   colors: {
     dark: '#273A52',
     darkestNavy: '#273A52',
-    darkNavy: '#334D6D',
+    darkNavy: '#273A52',
     navy: '#223246',
     lightNavy: '#2D435F',
     darkGrey: '#333f58',
-    mediumGrey: '#2d3952',
+    mediumGrey: '#3A567A',
     grey: '#4c5772',
     lightGrey: '#b49369',
     slate: '#cbb496',
