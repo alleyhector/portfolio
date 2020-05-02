@@ -123,11 +123,12 @@ const Footer = () => {
         </StyledSocialList>
       </StyledSocial>
       <StyledMetadata tabindex="-1">
+        Copyright &copy; 2020 Alley Hector<br />
         <StyledGitHubLink
           href="https://github.com/bchiang7/v4"
           target="_blank"
           rel="nofollow noopener noreferrer">
-          <div>Based on the design by Brittany Chiang</div>
+          <div>Made with Gatsby.js based on the design by Brittany Chiang</div>
 
           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>
