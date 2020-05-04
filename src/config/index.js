@@ -4,10 +4,10 @@ module.exports = {
     'Portfolio for Alley Hector content creator, editor, web developer & designer based in Portland, OR who can help imagine, create and built you or your online presence from beginning to end.',
   siteKeywords:
     'Alley Hector, Alley, Hector, qpdx, alleyhector, software engineer, front-end engineer, web developer, javascript, smith',
-  siteUrl: 'https://outandabout.space',
+  siteUrl: 'https://alleyhector.com',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
+  googleAnalyticsID: 'UA-11079764-4',
+  googleVerification: '8ewKpV-UpRO4Zn1ITh_gNvwiE8UM0226Srz04Ti8o9g',
   name: 'Alley Hector',
   location: 'Portland, OR',
   email: 'alley@qpdx.com',
