@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
-import { IconGitHub, IconExternal } from '@components/icons';
+import { FormattedIcon } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
@@ -60,7 +60,7 @@ const StyledDescription = styled.div`
     }
   `};
   p {
-    margin: 20px 0;
+    margin: 0;
   }
   a {
     ${mixins.inlineLink};
@@ -256,7 +256,7 @@ const Featured = ({ data }) => {
                         target="_blank"
                         rel="nofollow noopener noreferrer"
                         aria-label="GitHub Link">
-                        <IconGitHub />
+                        <FormattedIcon name="GitHub" />
                       </a>
                     )}
                     {external && (
@@ -265,7 +265,7 @@ const Featured = ({ data }) => {
                         target="_blank"
                         rel="nofollow noopener noreferrer"
                         aria-label="External Link">
-                        <IconExternal />
+                        <FormattedIcon name="External" />
                       </a>
                     )}
                   </StyledLinkWrapper>
@@ -275,7 +275,7 @@ const Featured = ({ data }) => {
                   href={external ? external : github ? github : '#'}
                   target="_blank"
                   rel="nofollow noopener noreferrer">
-                  <StyledFeaturedImg fluid={cover.childImageSharp.fluid} />
+                  <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
                 </StyledImgContainer>
               </StyledProject>
             );

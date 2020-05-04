@@ -20,9 +20,6 @@ const SkipToContent = styled.a`
   height: 1px;
   overflow: hidden;
   z-index: -99;
-  &:hover {
-    background-color: ${colors.darkGrey};
-  }
   &:focus,
   &:active {
     outline: 0;
@@ -55,7 +52,7 @@ const Layout = ({ children, location }) => {
   const [isLoading, setIsLoading] = useState(isHome);
 
   useEffect(() => {
-    if (isLoading || isHome) {
+    if (isLoading) {
       return;
     }
     if (location.hash) {
@@ -64,6 +61,7 @@ const Layout = ({ children, location }) => {
         const el = document.getElementById(id);
         if (el) {
           el.scrollIntoView();
+          el.focus();
         }
       }, 0);
     }
