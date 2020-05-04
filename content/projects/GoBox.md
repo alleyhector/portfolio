@@ -3,6 +3,8 @@ date: '2018-06-01'
 title: 'Go Box'
 github: ''
 external: 'https://www.goboxpdx.com'
+ios: 'https://apps.apple.com/us/app/go-box-reuse-systems/id947991155'
+android: ''
 tech:
   - Swift
   - Wordpress
