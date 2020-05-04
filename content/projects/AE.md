@@ -7,7 +7,7 @@ tech:
   - Writing
   - Editing
   - Research
-company: 'AE Viacom'
+company: 'MTV Viacom'
 showInProjects: true
 ---
 

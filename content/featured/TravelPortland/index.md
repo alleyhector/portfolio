@@ -2,7 +2,7 @@
 date: '1'
 title: 'Travel Portland'
 cover: './travelportland.png'
-github: 'https://github.com/bchiang7/halcyon-site'
+github: ''
 external: 'https://travelportland.com/'
 tech:
   - Content Curation & Migrations

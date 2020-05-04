@@ -13,4 +13,4 @@ company: ''
 showInProjects: true
 ---
 
-Redesigned teh home and news pages to better visually organize the massive amount of content on this site dedicated to Director of Surgical Services solutions.
+Redesigned the home and news pages to better visually organize the massive amount of content on this site dedicated to Director of Surgical Services solutions.

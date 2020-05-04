@@ -14,4 +14,4 @@ tech:
 showInProjects: true
 ---
 
-Here I headed the team and liased with Marketing Department on a new consumer website built from the ground up in Node.js for TransitScreen, a company focused on improving commutes with real-time information and gathering, storing and displaying transportation information in a way that helps people make better, more sustainable decisions about how they get around.
+Here I headed the team that liased with Marketing Department on a new consumer website built from the ground up in Node.js for TransitScreen, a company focused on improving commutes with real-time information and gathering, storing and displaying transportation information in a way that helps people make better, more sustainable decisions about how they get around.

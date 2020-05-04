@@ -2,8 +2,8 @@
 date: '2'
 title: 'Medical Teams International'
 cover: './mti.png'
-
-external: 'https://medicalteams.org/'
+github: ''
+external: 'http://medicalteams.org/'
 tech:
   - Wordpress
   - Timber

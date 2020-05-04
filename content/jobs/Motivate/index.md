@@ -12,5 +12,5 @@ url: 'https://www.motivateco.com/'
 - Helped write and maintain APIs with dual backend systems
 - Designed and implemented mobile-optimized sites using Foundation and other tools
 - Researched and implemented new technologies and platforms and built new workflow system
-- Serve as liaison between engineering, other departments and stakeholders
-- Perform updates and implement new features for short and long term sites.
+- Served as liaison between engineering, other departments and stakeholders
+- Performed updates and implemented new features for short and long term sites
