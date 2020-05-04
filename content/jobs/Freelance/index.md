@@ -4,7 +4,7 @@ title: 'Freelance Writer & Editor'
 company: 'Publications'
 location: 'Portland, OR'
 range: 'July 2003 – present'
-url: 'https://alleyhector.contently.com/
+url: 'https://alleyhector.contently.com/'
 ---
 
 - Wrote, edited and copy edited for various news, culture, marketing and promotional outlets
