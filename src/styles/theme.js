@@ -2,7 +2,7 @@ import { hex2rgba } from '@utils';
 
 const ACCENT = '#7AA34B';
 const DARK_BG = '#273A52';
-const BG = '#273A52';
+const BG = '#223246';
 
 const theme = {
   colors: {
