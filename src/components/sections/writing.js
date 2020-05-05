@@ -15,12 +15,12 @@ const StyledContainer = styled(Section)`
 `;
 const StyledContent = styled.div`
   position: relative;
+  z-index: 5;
   grid-column: 1 / 7;
   grid-row: 1 / -1;
   ${media.thone`
     grid-column: 1 / -1;
     padding: 40px 40px 30px;
-    z-index: 5;
   `};
   ${media.phablet`padding: 30px 25px 20px;`};
 `;
