@@ -6,13 +6,13 @@ const IconLoader = () => (
     <g>
       <g id="B" transform="translate(11.000000, 5.000000)">
         <path
-          d="M46.36,58.62H37.83L35.9,66H29l9.68-34.12h6.85L55.22,66H48.3Zm-7.17-5.21H45L42.16,42.59H42Z" 
+          d="M46.36,58.62H37.83L35.9,66H29l9.68-34.12h6.85L55.22,66H48.3Zm-7.17-5.21H45L42.16,42.59H42Z"
           transform="translate(-3 -5)"
-          fill="#FAF1CF"
+          fill="currentColor"
         />
       </g>
       <path
-        stroke="#FAF1CF"
+        stroke="currentColor"
         strokeWidth="5"
         strokeLinecap="round"
         strokeLinejoin="round"

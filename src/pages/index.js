@@ -39,7 +39,7 @@ export const pageQuery = graphql`
             title
             name
             subtitle
-            contactText
+            buttonText
           }
           html
         }
@@ -52,7 +52,7 @@ export const pageQuery = graphql`
             title
             avatar {
               childImageSharp {
-                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#FAF1CF" }) {
+                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
@@ -90,7 +90,7 @@ export const pageQuery = graphql`
             title
             cover {
               childImageSharp {
-                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#f00" }) {
+                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#7AA34B" }) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
@@ -113,7 +113,7 @@ export const pageQuery = graphql`
             title
             cover {
               childImageSharp {
-                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#FAF1CF" }) {
+                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#7AA34B" }) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
@@ -150,6 +150,7 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            buttonText
           }
           html
         }

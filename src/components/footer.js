@@ -1,14 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import {
-  IconGitHub,
-  IconLinkedin,
-  IconCodepen,
-  IconInstagram,
-  IconTwitter,
-  IconStar,
-  IconFork,
-} from '@components/icons';
+import { FormattedIcon } from '@components/icons';
 import { socialMedia } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
@@ -18,8 +10,6 @@ const StyledContainer = styled.footer`
   ${mixins.flexCenter};
   flex-direction: column;
   padding: 15px;
-  background-color: ${colors.darkNavy};
-  color: ${colors.slate};
   text-align: center;
   height: auto;
   min-height: 70px;
@@ -51,7 +41,7 @@ const StyledMetadata = styled.div`
   line-height: 1;
 `;
 const StyledGitHubLink = styled.a`
-  color: ${colors.slate};
+  color: ${colors.lightSlate};
   padding: 10px;
 `;
 const StyledGitHubInfo = styled.div`
@@ -104,19 +94,7 @@ const Footer = () => {
                   target="_blank"
                   rel="nofollow noopener noreferrer"
                   aria-label={name}>
-                  {name === 'GitHub' ? (
-                    <IconGitHub />
-                  ) : name === 'Linkedin' ? (
-                    <IconLinkedin />
-                  ) : name === 'Codepen' ? (
-                    <IconCodepen />
-                  ) : name === 'Instagram' ? (
-                    <IconInstagram />
-                  ) : name === 'Twitter' ? (
-                    <IconTwitter />
-                  ) : (
-                    <IconGitHub />
-                  )}
+                  <FormattedIcon name={name} />
                 </StyledSocialLink>
               </li>
             ))}
@@ -133,12 +111,12 @@ const Footer = () => {
           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>
               <span>
-                <IconStar />
-                <span>{githubInfo.stars}</span>
+                <FormattedIcon name="Star" />
+                <span>{githubInfo.stars.toLocaleString()}</span>
               </span>
               <span>
-                <IconFork />
-                <span>{githubInfo.forks}</span>
+                <FormattedIcon name="Fork" />
+                <span>{githubInfo.forks.toLocaleString()}</span>
               </span>
             </StyledGitHubInfo>
           )}
