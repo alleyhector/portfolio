@@ -1,38 +1,38 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'Alley Hector | Developer, Designer, Content Creator',
   siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+    'Portfolio for Alley Hector content creator, editor, web developer & designer based in Portland, OR who can help imagine, create and built you or your online presence from beginning to end.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Alley Hector, Alley, Hector, qpdx, alleyhector, software engineer, front-end engineer, web developer, javascript, smith',
+  siteUrl: 'https://alleyhector.com',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  googleAnalyticsID: 'UA-11079764-4',
+  googleVerification: '8ewKpV-UpRO4Zn1ITh_gNvwiE8UM0226Srz04Ti8o9g',
+  name: 'Alley Hector',
+  location: 'Portland, OR',
+  email: 'alley@qpdx.com',
+  github: 'https://github.com/alleyhector',
+  twitterHandle: '@qpdx',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/alleyhector',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/allisonhector',
     },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
+    // {
+    //   name: 'Codepen',
+    //   url: 'https://codepen.io/bchiang7',
+    // },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/alleyhector',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/qpdx',
     },
   ],
 
@@ -48,6 +48,10 @@ module.exports = {
     {
       name: 'Work',
       url: '/#projects',
+    },
+    {
+      name: 'Writing Samples',
+      url: '/#writing',
     },
     {
       name: 'Contact',
