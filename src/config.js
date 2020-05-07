@@ -42,11 +42,11 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'Experience',
+      name: 'Clients',
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Web Solutions',
       url: '/#projects',
     },
     {
@@ -62,9 +62,9 @@ module.exports = {
   navHeight: 100,
 
   colors: {
-    green: '#64ffda',
-    navy: '#0a192f',
-    darkNavy: '#020c1b',
+    green: '#7AA34B',
+    navy: '#223246',
+    darkNavy: '#273A52',
   },
 
   srConfig: (delay = 200) => ({

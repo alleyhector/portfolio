@@ -11,5 +11,5 @@ url: 'https://www.transitscreen.com/'
 - Wrangled APIs and API integrations
 - Headed new product implementations
 - Maintained Wordpress site, redesigned and implemented new site in Node.js
-- Trained Customer Success
+- Trained customer success team
 - Liaised with marketing

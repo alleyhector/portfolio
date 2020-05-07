@@ -18,10 +18,12 @@ skills:
   - Audio/video editing
 ---
 
-Hello! I'm Alley Hector, a designer, developer, software engineer and content curator and creator who specializes in making your online presence reflect your core values. I work with causes, nonprofits, activists, artists, I believe in so I know how important it is that they come across.
+Hello! I'm Alley Hector, a designer, developer, software engineer, content curator and writer. This diverse skill set allows me to help my clients connect and engage with their audience on any platform.
 
-From your website structure to content to social media you need your message to reach your audience. I can not only craft all of these things but I know how they should work together to showcase who you really are. Whether you don't know where to start, you want to rebrand or just need it built, I can be with you every step of the way.
+Your website structure, social media and online content must work together to showcase who you really are. I can help you craft clear messaging and develop a dynamic and engaging online presence.
 
-A graduate of [Smith College](https://www.smith.edu/), I am now based in my hometown of Portland, OR. I love to sing the praises of the Pacific Northwest, but I am also a traveler and enjoy working with clients all over the world. As a freelancer for the last several years I am as at ease working across time zones as I am riding down my neighborhood street on my little silver All-City Space Horse road bike.
+Whether you aren't sure where to start, want to rebrand, or know you need something but not sure what that something is - I can help you every step of the way. I work with private companies, nonprofits, activists and artists I believe in. I'm not just a designer/writer/nerd for hire. When I work with clients, I help them develop strategies for long term success.
+
+A [Smith College](https://www.smith.edu/) grad based in my hometown Portland, OR, I love the Pacific Northwest. But I am also a traveler and enjoy working with clients all over the world. I am as at ease working across time zones as I am riding through my neighborhood on my All-City Space Horse road bike.
 
 Here are a few technologies and skills I work with regularly:
