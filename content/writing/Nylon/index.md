@@ -2,7 +2,7 @@
 date: '1'
 title: 'Astrology for Real Relationships'
 cover: './nylon.png'
-github: 'https://www.nylon.com/'
+publication: 'https://www.nylon.com/'
 external: 'https://www.nylon.com/astrologer-jessica-lanyadoo-book-interview'
 tech:
   - NYLON magazine

@@ -2,7 +2,7 @@
 date: '3'
 title: 'The State of the Lesbian Bar'
 cover: './autostraddle.png'
-github: 'https://www.autostraddle.com/'
+publication: 'https://www.autostraddle.com/'
 external: 'https://www.autostraddle.com/the-state-of-the-lesbian-bar-portland-sees-popups-replace-the-e-room-264369/'
 tech:
   - AUTOSTRADDLE queer women's website

@@ -119,7 +119,7 @@ export const pageQuery = graphql`
               }
             }
             tech
-            github
+            publication
             external
           }
           html

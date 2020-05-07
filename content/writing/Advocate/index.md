@@ -2,7 +2,7 @@
 date: '4'
 title: 'Trans and Fluid Musicians'
 cover: './advocate.png'
-github: 'https://www.advocate.com/'
+publication: 'https://www.advocate.com/'
 external: 'https://www.advocate.com/music/2018/3/30/16-trans-and-fluid-musicians-who-transformed-music'
 tech:
   - THE ADVOCATE

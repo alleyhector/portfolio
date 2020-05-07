@@ -2,7 +2,7 @@
 date: '2'
 title: 'Wild Times'
 cover: './into.png'
-github: 'https://www.intomore.com'
+publication: 'https://www.intomore.com'
 external: 'https://www.intomore.com/culture/wild-times-8-queer-adventurers-discuss-diversity-in-outdoor-culture'
 tech:
   - INTO lgbt magazine from Grindr
