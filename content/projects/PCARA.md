@@ -1,7 +1,7 @@
 ---
 date: '2019-06-01'
 title: 'Park City Restaurant Association'
-github: ''
+pub: ''
 external: 'https://parkcityrestaurants.com/'
 tech:
   - Copywriting

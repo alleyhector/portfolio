@@ -140,6 +140,7 @@ export const pageQuery = graphql`
             tech
             github
             external
+            pub
           }
           html
         }

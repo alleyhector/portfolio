@@ -1,12 +1,12 @@
 ---
 date: '2018-12-30'
 title: 'Never So Unconcerned'
-github: 'https://literarykitchen.com/'
+pub: 'https://literarykitchen.com/'
 external: './work/MagicalZine-excerpt.pdf'
 tech:
   - Fiction Writing
   - Tarot
-company: 'Ariel Gore&single;s Literary Kitchen'
+company: 'Ariel Gore\`s Literary Kitchen'
 showInProjects: false
 ---
 

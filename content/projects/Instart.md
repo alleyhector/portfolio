@@ -1,8 +1,8 @@
 ---
 date: '2019-05-01'
 title: 'Instart'
-github: ''
-external: 'https://allservicemoving.com/'
+pub: ''
+external: 'https://www.instart.com/'
 tech:
   - Copywriting
   - Copyediting

@@ -2,6 +2,7 @@
 date: '2020-02-01'
 title: 'The Financial Beat'
 github: ''
+pub: ''
 external: 'https://financialbeatllc.com/'
 tech:
   - Wordpress

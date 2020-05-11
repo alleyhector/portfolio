@@ -155,7 +155,7 @@ const Projects = ({ data }) => {
           {projectsToShow &&
             projectsToShow.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { github, external, title, tech } = frontmatter;
+              const { pub, github, external, title, tech } = frontmatter;
               return (
                 <CSSTransition
                   key={i}
@@ -183,6 +183,15 @@ const Projects = ({ data }) => {
                                 rel="nofollow noopener noreferrer"
                                 aria-label="GitHub Link">
                                 <FormattedIcon name="GitHub" />
+                              </StyledIconLink>
+                            )}
+                            {pub && (
+                              <StyledIconLink
+                                href={pub}
+                                target="_blank"
+                                rel="nofollow noopener noreferrer"
+                                aria-label="Publication Link">
+                                <FormattedIcon name="Pub" />
                               </StyledIconLink>
                             )}
                             {external && (

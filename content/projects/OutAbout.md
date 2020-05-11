@@ -2,6 +2,7 @@
 date: '2020-06-01'
 title: 'Out & About'
 github: ''
+pub: ''
 external: 'https://www.outandabout.space/'
 tech:
   - Travel Writing

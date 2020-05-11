@@ -1,7 +1,7 @@
 ---
 date: '2011-03-01'
 title: 'After Ellen'
-github: 'https://www.afterellen.com/'
+pub: 'https://www.afterellen.com/'
 external: 'https://www.afterellen.com/author/alley-hector'
 tech:
   - Writing

@@ -136,6 +136,7 @@ const ArchivePage = ({ location, data }) => {
                   const {
                     date,
                     github,
+                    pub,
                     external,
                     ios,
                     android,
@@ -173,6 +174,15 @@ const ArchivePage = ({ location, data }) => {
                               rel="nofollow noopener noreferrer"
                               aria-label="External Link">
                               <FormattedIcon name="External" />
+                            </a>
+                          )}
+                          {pub && (
+                            <a
+                              href={pub}
+                              target="_blank"
+                              rel="nofollow noopener noreferrer"
+                              aria-label="Publication">
+                              <FormattedIcon name="Publication" />
                             </a>
                           )}
                           {github && (

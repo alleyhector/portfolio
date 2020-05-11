@@ -1,7 +1,7 @@
 ---
 date: '2019-05-01'
 title: 'All Service Moving'
-github: ''
+pub: ''
 external: 'https://allservicemoving.com/'
 tech:
   - Copywriting

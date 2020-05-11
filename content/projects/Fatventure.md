@@ -1,7 +1,7 @@
 ---
 date: '2018-10-01'
 title: 'Fatventure Mag'
-github: 'http://www.fatventuremag.com/'
+pub: 'http://www.fatventuremag.com/'
 external: './work/Fatventure-excerpt.pdf'
 tech:
   - Writing
