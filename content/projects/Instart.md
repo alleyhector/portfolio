@@ -9,7 +9,7 @@ tech:
   - Ghostwriting
   - Infographic writing
 company: 'Mad Fish'
-showInProjects: true
+showInProjects: false
 ---
 
 Wrote a series of technical blog posts for Instart: Client-intelligent website security solutions including this infographic on [The Future of eCommerce](https://s3.amazonaws.com/external_clips/3037285/Instart-The-Future-of-eCommerce-Infographic-V2.pdf?1554764755).
