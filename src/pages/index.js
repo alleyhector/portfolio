@@ -121,6 +121,8 @@ export const pageQuery = graphql`
             tech
             publication
             external
+            pubtitle
+            release
           }
           html
         }

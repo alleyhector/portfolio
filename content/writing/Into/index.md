@@ -4,9 +4,10 @@ title: 'Wild Times'
 cover: './into.png'
 publication: 'https://www.intomore.com'
 external: 'https://www.intomore.com/culture/wild-times-8-queer-adventurers-discuss-diversity-in-outdoor-culture'
+pubtitle: Into - lgbt magazine from Grindr
+release: November 30, 2018
 tech:
   - INTO lgbt magazine from Grindr
-  - November 30, 2018
 showInProjects: true
 ---
 

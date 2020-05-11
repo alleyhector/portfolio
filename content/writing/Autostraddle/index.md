@@ -4,9 +4,10 @@ title: 'The State of the Lesbian Bar'
 cover: './autostraddle.png'
 publication: 'https://www.autostraddle.com/'
 external: 'https://www.autostraddle.com/the-state-of-the-lesbian-bar-portland-sees-popups-replace-the-e-room-264369/'
+pubtitle: Autostraddle - queer women's website
+release: December 18, 2014
 tech:
   - AUTOSTRADDLE queer women's website
-  - December 18, 2014
 showInProjects: true
 ---
 Portland Sees Popups Replace the E Room -- A dramatic tale of Portland, Oregon bar culture. In Autostraddle’s The [State of the Lesbian Bar](https://www.autostraddle.com/tag/the-state-of-the-lesbian-bar/), we’re taking a look at lesbian bars around the country as the possibility of extinction looms ever closer. 
