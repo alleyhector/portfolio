@@ -182,7 +182,7 @@ const ArchivePage = ({ location, data }) => {
                               target="_blank"
                               rel="nofollow noopener noreferrer"
                               aria-label="Publication">
-                              <FormattedIcon name="Publication" />
+                              <FormattedIcon name="Pub" />
                             </a>
                           )}
                           {github && (
@@ -248,6 +248,7 @@ export const pageQuery = graphql`
             ios
             android
             company
+            pub
           }
           html
         }
