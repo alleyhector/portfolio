@@ -256,7 +256,7 @@ const Featured = ({ data }) => {
                         target="_blank"
                         rel="nofollow noopener noreferrer"
                         aria-label="Publication Link">
-                        <FormattedIcon name="Folder" />
+                        <FormattedIcon name="Pub" />
                       </a>
                     )}
                     {external && (
