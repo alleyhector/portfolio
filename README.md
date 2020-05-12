@@ -11,7 +11,7 @@
 
 ![demo](https://raw.githubusercontent.com/alleyhector/portfolio/master/src/images/demo.png)
 
-## Gatsy.js
+## Gatsby.js
 
 This was built in [Gatsby](https://www.gatsbyjs.org/), a free and open source framework based on React. For more information on building your own or starting from a theme or template visit the [Gatsby docs](https://www.gatsbyjs.org/docs/).
 
@@ -71,6 +71,6 @@ Can be found in the `theme.js` file
 | BG                | ![#223246](https://via.placeholder.com/10/223246?text=+) `#223246` |
 | Light BG          | ![#2D435F](https://via.placeholder.com/10/2D435F?text=+) `#2D435F` |
 | Main              | ![#cbb496](https://via.placeholder.com/10/cbb496?text=+) `#cbb496` |
-| Light Main        | ![#b49369](https://via.placeholder.com/10/b49369?text=+) `#b49369` |
+| Secondary         | ![#b49369](https://via.placeholder.com/10/b49369?text=+) `#b49369` |
 | Off White         | ![#FAF1CF](https://via.placeholder.com/10/FAF1CF?text=+) `#FAF1CF` |
 | Accent            | ![#7AA34B](https://via.placeholder.com/10/7AA34B?text=+) `#7AA34B` |
