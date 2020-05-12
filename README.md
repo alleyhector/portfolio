@@ -1,7 +1,8 @@
-![logo](https://raw.githubusercontent.com/alleyhector/portfolio/master/src/images/logo.png)
-
+<div align="center">
+  <img alt="Logo" src="/src/images/logo.png" width="100" />
+</div>
 <h1 align="center">
-  Portfolio site for Alley Hector
+  The Work of Alley Hector
 </h1>
 <p align="center">
   Portfolio website <a href="https://alleyhector.com" target="_blank">alleyhector.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
@@ -9,7 +10,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/062be464-d059-4fb6-ade9-f95347081d40/deploy-status)](https://app.netlify.com/sites/hardcore-poitras-50ad46/deploys)
 
-![demo](https://raw.githubusercontent.com/alleyhector/portfolio/master/src/images/demo.png)
+![demo](/src/images/demo.png)
 
 ## Gatsby.js
 
