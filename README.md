@@ -8,7 +8,19 @@
   Portfolio website <a href="https://alleyhector.com" target="_blank">alleyhector.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/062be464-d059-4fb6-ade9-f95347081d40/deploy-status)](https://app.netlify.com/sites/hardcore-poitras-50ad46/deploys)
+<div align="center">
+  <a href="https://app.netlify.com/sites/hardcore-poitras-50ad46/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/062be464-d059-4fb6-ade9-f95347081d40/deploy-status" alt="Netlify Build" />
+  </a>
+</div>
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/qPDX" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/lato-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" >
+  </a>
+</p>
+
+<hr />
 
 ![demo](/src/images/demo.png)
 
@@ -75,3 +87,11 @@ Can be found in the `theme.js` file
 | Secondary         | ![#b49369](https://via.placeholder.com/10/b49369?text=+) `#b49369` |
 | Off White         | ![#FAF1CF](https://via.placeholder.com/10/FAF1CF?text=+) `#FAF1CF` |
 | Accent            | ![#7AA34B](https://via.placeholder.com/10/7AA34B?text=+) `#7AA34B` |
+
+## 🗞 Licence
+
+Code released under the [MIT License](LICENSE).
+
+## 👩🏾‍🔬 Credits
+
+Design inspired from [Brittany Chiang](https://github.com/bchiang7)
