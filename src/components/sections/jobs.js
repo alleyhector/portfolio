@@ -80,11 +80,11 @@ const StyledTabButton = styled.button`
     text-align: center;
     border-left: 0;
     border-bottom: 2px solid ${colors.lightestNavy};
-    min-width: 120px;
+    min-width: 175px;
   `};
   &:hover {
     background-color: ${colors.lightNavy};
-  }
+  };
 `;
 const StyledHighlight = styled.span`
   display: block;

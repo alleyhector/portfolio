@@ -1,7 +1,7 @@
 ---
 date: '2016-08-01'
 title: 'Web Developer'
-company: 'Alta Bicycle Share/Motivate/Lyft'
+company: 'Alta Bicycle Share'
 location: 'Portland, OR'
 range: 'March 2012 – August 2016'
 url: 'https://www.motivateco.com/'
