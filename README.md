@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/qPDX" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/lato-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" >
+    <img height='51' src="https://cdn.buymeacoffee.com/buttons/lato-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" >
   </a>
 </p>
 
