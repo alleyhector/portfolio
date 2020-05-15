@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import { Head, Loader, Nav, Social, Email, Footer } from '@components';
 import styled from 'styled-components';
-import { GlobalStyle, theme } from '@styles';
+import { GlobalStyle, theme, media } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 
 // https://medium.com/@chrisfitkin/how-to-smooth-scroll-links-in-gatsby-3dc445299558
@@ -45,6 +45,25 @@ const StyledContent = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  #content {
+    position: relative;
+    overflow: hidden;
+    :after {
+      content:"";
+      position:absolute;
+      width:100%;
+      height:100%;
+      left:0;
+      top:0;
+      z-index:-1;
+      opacity:0.1;
+      background: url("./bg/norte.jpg") no-repeat fixed center center;
+      background-size: cover;
+      ${media.thone`
+        opacity: 0;
+      `};
+    }
+  }
 `;
 
 const Layout = ({ children, location }) => {
@@ -100,6 +119,7 @@ const Layout = ({ children, location }) => {
                 {children}
                 <Footer />
               </div>
+
             </StyledContent>
           )}
         </div>
