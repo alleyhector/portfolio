@@ -49,7 +49,7 @@ const theme = {
   margin: '20px',
 
   tabHeight: 42,
-  tabWidth: 120,
+  tabWidth: 175,
   radius: 3,
 
   hamburgerWidth: 30,
