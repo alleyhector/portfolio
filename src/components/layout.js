@@ -57,7 +57,7 @@ const StyledContent = styled.div`
       top:0;
       z-index:-1;
       opacity:0.1;
-      background: url("./bg/sunset.jpg") no-repeat fixed center center;
+      background: url("./bg/thailand.jpg") no-repeat fixed center center;
       background-size: cover;
       ${media.thone`
         opacity: 0;

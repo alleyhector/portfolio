@@ -16,7 +16,7 @@ const StyledContainer = styled.header`
   position: fixed;
   top: 0;
   padding: 0px 50px;
-  background: linear-gradient(${colors.navy}, rgba(34, 50, 70, 0.2));
+  background: transparent;
   transition: ${theme.transition};
   z-index: 11;
   filter: none !important;
