@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
+import StyledBackgroundSection from '../components/bgimage';
 import { Head, Loader, Nav, Social, Email, Footer } from '@components';
 import styled from 'styled-components';
 import { GlobalStyle, theme, media } from '@styles';
@@ -116,6 +117,7 @@ const Layout = ({ children, location }) => {
               <Email isHome={isHome} />
 
               <div id="content">
+                <StyledBackgroundSection />
                 {children}
                 <Footer />
               </div>
