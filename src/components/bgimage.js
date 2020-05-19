@@ -1,48 +1,56 @@
 import React from 'react';
-import { graphql, StaticQuery } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import styled from 'styled-components';
 
 import BackgroundImage from 'gatsby-background-image';
 
-const BackgroundSection = () => (
-  <StaticQuery
-    query={graphql`
+/**
+ * In this functional component a fullscreen <BackgroundImage />  is created.
+ * @param className   string    className(s) from styled-components.
+ * @param children    nodes     Child-components.
+ * @return {*}
+ * @constructor
+ */
+const FullBackground = ({ children }) => {
+  const { desktop } = useStaticQuery(
+    graphql`
       query {
-        desktop: file(relativePath: { eq: "demo.jpg" }) {
+        desktop: file(relativePath: { eq: "demo.png" }) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 1920) {
+            fluid(quality: 90, maxWidth: 4160) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
       }
-    `}
-    render={data => {
-      /* eslint-disable no-console */
-      console.log(data);
-      /* eslint-enable no-console */
-      
-      // Set ImageData.
-      const imageData = data.desktop.childImageSharp.fluid;
+    `);
 
-      return (
-        <BackgroundImage
-          Tag="section"
-          fluid={imageData}
-          backgroundColor={`#040e18`}
-        >
-          <h2>gatsby-background-image</h2>
-        </BackgroundImage>
-      );
-    }}
-  />
-);
+  console.log( desktop );
+  // Single Image Data
+  const imageData = desktop.childImageSharp.fluid;
 
-const StyledBackgroundSection = styled(BackgroundSection)`
+  return (
+    <BackgroundImage
+      Tag="section"
+      fluid={imageData}
+      backgroundColor={`#040e18`}
+      title="Fullscreen Background"
+      id="fullscreenbg"
+      role="img"
+      aria-label="Fullscreen Background"
+      preserveStackingContext={true}
+    >
+      {children}
+    </BackgroundImage>
+  );
+};
+
+const StyledFullBackground = styled(FullBackground)`
   width: 100%;
-  background-position: bottom center;
-  background-repeat: repeat-y;
-  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
-export default StyledBackgroundSection;
+export default StyledFullBackground;
