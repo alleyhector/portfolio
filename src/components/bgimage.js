@@ -1,8 +1,9 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import styled from 'styled-components';
-
 import BackgroundImage from 'gatsby-background-image';
+import { theme } from '@styles';
+const { colors } = theme;
 
 /**
  * In this functional component a fullscreen <BackgroundImage />  is created.
@@ -15,30 +16,39 @@ const FullBackground = ({ children }) => {
   const { desktop } = useStaticQuery(
     graphql`
       query {
-        desktop: file(relativePath: { eq: "demo.png" }) {
+        desktop: file(relativePath: { eq: "bg/pompidou.jpg" }) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 4160) {
-              ...GatsbyImageSharpFluid_withWebp
+            fluid(quality: 90, maxWidth: 3024) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }
       }
     `);
 
-  console.log( desktop );
-  // Single Image Data
-  const imageData = desktop.childImageSharp.fluid;
+  // Watch out for CSS's stacking order, especially when styling the individual
+  // positions! The lowermost image comes last!
+  const backgroundFluidImageStack = [
+    desktop.childImageSharp.fluid,
+    `linear-gradient(${colors.alphaNavy}, ${colors.alphaNavy})`,
+  ].reverse();
 
   return (
     <BackgroundImage
       Tag="section"
-      fluid={imageData}
-      backgroundColor={`#040e18`}
+      fluid={backgroundFluidImageStack}
       title="Fullscreen Background"
       id="fullscreenbg"
       role="img"
       aria-label="Fullscreen Background"
       preserveStackingContext={true}
+      style={{
+        // Defaults are overwrite-able by setting one of the following:
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+        // backgroundRepeat: '',
+        backgroundAttachment: 'fixed',
+      }}
     >
       {children}
     </BackgroundImage>
@@ -46,11 +56,6 @@ const FullBackground = ({ children }) => {
 };
 
 const StyledFullBackground = styled(FullBackground)`
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 `;
 
 export default StyledFullBackground;
