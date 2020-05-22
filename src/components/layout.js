@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import StyledFullBackground from '../components/bgimage';
+import StyledFullBgSlider from '../components/bgslide';
+
 import { Head, Loader, Nav, Social, Email, Footer } from '@components';
 import styled from 'styled-components';
 import { GlobalStyle, theme, media } from '@styles';
@@ -46,13 +47,11 @@ const StyledContent = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  #fullscreenbg {
-    &:before, 
-    &:after {
-      ${media.thone`
-        opacity: 0;
-      `};
-    }
+  #content {
+    background-color: ${colors.alphaNavy};
+    ${media.thone`
+      background-color: ${colors.navy};
+    `};
   }
 `;
 
@@ -106,9 +105,8 @@ const Layout = ({ children, location }) => {
               <Email isHome={isHome} />
 
               <div id="content">
-                <StyledFullBackground>
-                  {children}
-                </StyledFullBackground>
+                <StyledFullBgSlider />
+                {children}
                 <Footer />
               </div>
 

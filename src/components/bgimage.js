@@ -46,7 +46,6 @@ const FullBackground = ({ children }) => {
         // Defaults are overwrite-able by setting one of the following:
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
-        // backgroundRepeat: '',
         backgroundAttachment: 'fixed',
       }}
     >
