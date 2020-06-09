@@ -14,4 +14,4 @@ tech:
 showInProjects: true
 ---
 
-TransitScreen, a company focused on improving commutes with real-time information and gathering, storing and displaying transportation information need a way to show customers that can make better, more sustainable decisions about how they get around by serving dynamic examples of their products. This required heading a team that liased with the marketing department and building a web application from the ground up using Node.js and displaying real-time information and user-based mapping examples.
+TransitScreen, a company focused on improving commutes with real-time information and gathering, storing and displaying transportation information need a way to show customers that can make better, more sustainable decisions about how they get around by serving dynamic examples of their products. This required heading a team that liased with the marketing department and building a web application from the ground up using Node.js that displayed real-time information and user-based mapping examples.
