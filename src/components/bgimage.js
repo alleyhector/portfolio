@@ -16,7 +16,7 @@ const FullBackground = ({ children }) => {
   const { desktop } = useStaticQuery(
     graphql`
       query {
-        desktop: file(relativePath: { eq: "bg/pompidou.jpg" }) {
+        desktop: file(relativePath: { eq: "pompidou.jpg" }) {
           childImageSharp {
             fluid(quality: 90, maxWidth: 3024) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -46,7 +46,6 @@ const FullBackground = ({ children }) => {
         // Defaults are overwrite-able by setting one of the following:
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
-        // backgroundRepeat: '',
         backgroundAttachment: 'fixed',
       }}
     >
