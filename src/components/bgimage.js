@@ -37,7 +37,7 @@ const FullBackground = ({ children }) => {
     <BackgroundImage
       Tag="section"
       fluid={backgroundFluidImageStack}
-      title="Fullscreen Background"
+      // title="Fullscreen Background"
       id="fullscreenbg"
       role="img"
       aria-label="Fullscreen Background"
