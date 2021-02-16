@@ -3,7 +3,7 @@ date: '2020-03-01'
 title: 'Content Specialist'
 company: 'Travel Portland'
 location: 'Portland, OR'
-range: 'December 2018 – present'
+range: 'December 2018 – April 2020'
 url: 'https://travelportland.com/'
 ---
 
