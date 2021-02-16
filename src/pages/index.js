@@ -81,7 +81,10 @@ export const pageQuery = graphql`
       }
     }
     featured: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/featured/" } }
+      filter: {
+        fileAbsolutePath: { regex: "/featured/" }
+        frontmatter: { showInProjects: { ne: false } }
+      }
       sort: { fields: [frontmatter___date], order: ASC }
     ) {
       edges {
@@ -104,7 +107,10 @@ export const pageQuery = graphql`
       }
     }
     writing: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/writing/" } }
+      filter: {
+        fileAbsolutePath: { regex: "/writing/" }
+        frontmatter: { showInProjects: { ne: false } }
+      }
       sort: { fields: [frontmatter___date], order: ASC }
     ) {
       edges {
