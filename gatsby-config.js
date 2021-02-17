@@ -152,18 +152,10 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          {
-            family: `Raleway`,
-            variants: [`400`, `700`, `400i`, `700i`]
-          },
-          {
-            family: `Roboto Condensed`,
-            variants: [`400`, `700`, `400i`, `700i`]
-          },
-        ],
+        fonts: [`Raleway:400,700,400i,700i`, `Roboto Condensed:400,700,400i,700i`],
+        display: 'swap',
       },
     },
   ],
