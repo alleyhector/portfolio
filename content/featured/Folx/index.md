@@ -2,8 +2,8 @@
 date: '1'
 title: 'Folx Health'
 cover: './folx.png'
-github: 'https://github.com/folxhealth/gatsby-test.git'
-external: 'http://medicalteams.org/'
+github: 'https://github.com/folxhealth/'
+external: 'https://www.folxhealth.com/'
 tech:
   - Gatsby.js
   - Typescript
