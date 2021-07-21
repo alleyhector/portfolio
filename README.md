@@ -57,7 +57,7 @@ This was built in [Gatsby](https://www.gatsbyjs.org/), a free and open source fr
    or
 
    ```sh
-   gatsby development
+   gatsby develop
    ```
 
 ## 🚀 Building and Running for Production
@@ -78,15 +78,15 @@ This was built in [Gatsby](https://www.gatsbyjs.org/), a free and open source fr
 
 Can be found in the `theme.js` file
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Dark BG           | ![#273A52](https://via.placeholder.com/10/273A52?text=+) `#273A52` |
-| BG                | ![#223246](https://via.placeholder.com/10/223246?text=+) `#223246` |
-| Light BG          | ![#2D435F](https://via.placeholder.com/10/2D435F?text=+) `#2D435F` |
-| Main              | ![#cbb496](https://via.placeholder.com/10/cbb496?text=+) `#cbb496` |
-| Secondary         | ![#b49369](https://via.placeholder.com/10/b49369?text=+) `#b49369` |
-| Off White         | ![#FAF1CF](https://via.placeholder.com/10/FAF1CF?text=+) `#FAF1CF` |
-| Accent            | ![#7AA34B](https://via.placeholder.com/10/7AA34B?text=+) `#7AA34B` |
+| Color     | Hex                                                                |
+| --------- | ------------------------------------------------------------------ |
+| Dark BG   | ![#273A52](https://via.placeholder.com/10/273A52?text=+) `#273A52` |
+| BG        | ![#223246](https://via.placeholder.com/10/223246?text=+) `#223246` |
+| Light BG  | ![#2D435F](https://via.placeholder.com/10/2D435F?text=+) `#2D435F` |
+| Main      | ![#cbb496](https://via.placeholder.com/10/cbb496?text=+) `#cbb496` |
+| Secondary | ![#b49369](https://via.placeholder.com/10/b49369?text=+) `#b49369` |
+| Off White | ![#FAF1CF](https://via.placeholder.com/10/FAF1CF?text=+) `#FAF1CF` |
+| Accent    | ![#7AA34B](https://via.placeholder.com/10/7AA34B?text=+) `#7AA34B` |
 
 ## 🗞 Licence
 
