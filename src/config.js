@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/allisonhector',
+      url: 'https://www.linkedin.com/in/alleyhector',
     },
     // {
     //   name: 'Codepen',
