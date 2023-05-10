@@ -8,14 +8,14 @@ url: 'https://chaninicholas.com'
 ---
 
 - Headed the technology department of a queer astrological company
-- Produced our podcast and all associated audio 
+- Produced our podcast and all associated audio
 - Oversaw our product line including:
   - iOS mobile application
-  - e-commerce site 
+  - e-commerce site
   - blogging platform
   - React based web chart tool
 - Lead initiatives including:
   - Android and web applications
-  - Custom astroligical calculation API
-- Liasised with marketing, production, and content to ensure we were consistency in brand and copy
+  - Custom astrological calculation API
+- Liaised with marketing, production, and content to ensure we were consistency in brand and copy
 - Interfaced with outside vendors
