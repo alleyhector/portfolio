@@ -71,7 +71,7 @@ const StyledTechList = styled.ul`
   z-index: 2;
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
+  padding: 0 50px;
   margin: 25px 0 10px;
   list-style: none;
 
