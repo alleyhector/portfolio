@@ -36,6 +36,7 @@ const StyledPostContent = styled.div`
 `;
 
 const PostTemplate = ({ data, location }) => {
+  console.log('Data: ', data);
   const { frontmatter, html } = data.markdownRemark;
   const { title, date, tags } = frontmatter;
 
