@@ -10,7 +10,7 @@ const _ = require('lodash');
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
   const postTemplate = path.resolve(`src/templates/post.js`);
-  const tagTemplate = path.resolve('src/templates/tag.js');
+  const tagTemplate = path.resolve(`src/templates/tag.js`);
 
   const result = await graphql(`{
   postsRemark: allMarkdownRemark(
@@ -46,7 +46,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     createPage({
       path: node.frontmatter.slug,
       component: postTemplate,
-      context: {},
+      context: {
+        path: node.frontmatter.slug,
+      },
     });
   });
 
