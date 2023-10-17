@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import StyledFullBackground from '../components/bgimage';
 import { Head, Loader, Nav, Social, Email, Footer } from '@components';
@@ -47,7 +47,7 @@ const StyledContent = styled.div`
   flex-direction: column;
   min-height: 100vh;
   #fullscreenbg {
-    &:before, 
+    &:before,
     &:after {
       ${media.thone`
         opacity: 0;
@@ -76,47 +76,39 @@ const Layout = ({ children, location }) => {
     }
   }, [isLoading]);
 
-  return (
-    <StaticQuery
-      query={graphql`
-        query LayoutQuery {
-          site {
-            siteMetadata {
-              title
-              siteUrl
-              description
-            }
-          }
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
         }
-      `}
-      render={({ site }) => (
-        <div id="root">
-          <Head metadata={site.siteMetadata} />
+      }
+    }
+  `);
 
-          <GlobalStyle />
+  return (
+    <div id="root">
+      <Head metadata={data.site.siteMetadata} />
 
-          <SkipToContent href="#content">Skip to Content</SkipToContent>
+      <GlobalStyle />
 
-          {isLoading && isHome ? (
-            <Loader finishLoading={() => setIsLoading(false)} />
-          ) : (
-            <StyledContent>
-              <Nav isHome={isHome} />
-              <Social isHome={isHome} />
-              <Email isHome={isHome} />
+      <SkipToContent href="#content">Skip to Content</SkipToContent>
 
-              <div id="content">
-                <StyledFullBackground>
-                  {children}
-                </StyledFullBackground>
-                <Footer />
-              </div>
+      {isLoading && isHome ? (
+        <Loader finishLoading={() => setIsLoading(false)} />
+      ) : (
+        <StyledContent>
+          <Nav isHome={isHome} />
+          <Social isHome={isHome} />
+          <Email isHome={isHome} />
 
-            </StyledContent>
-          )}
-        </div>
+          <div id="content">
+            <StyledFullBackground>{children}</StyledFullBackground>
+            <Footer />
+          </div>
+        </StyledContent>
       )}
-    />
+    </div>
   );
 };
 
