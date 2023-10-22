@@ -19,7 +19,7 @@ const Heading = styled.h3`
     margin-right: 10px;
     font-family: ${fonts.Highlight};
     font-weight: normal;
-    color: ${colors.green};
+    color: ${colors.accent};
     font-size: ${fontSizes.xl};
     position: relative;
     bottom: 4px;
@@ -31,7 +31,7 @@ const Heading = styled.h3`
     display: block;
     height: 1px;
     width: 300px;
-    background-color: ${colors.lightestNavy};
+    background-color: ${colors.lightestBg};
     position: relative;
     top: -5px;
     margin-left: 20px;

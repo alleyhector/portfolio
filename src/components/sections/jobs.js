@@ -67,28 +67,28 @@ const StyledTabButton = styled.button`
   height: ${theme.tabHeight}px;
   padding: 0 20px 2px;
   transition: ${theme.transition};
-  border-left: 2px solid ${colors.lightestNavy};
+  border-left: 2px solid ${colors.lightestBg};
   text-align: left;
   white-space: nowrap;
   font-family: ${fonts.Highlight};
   font-size: ${fontSizes.sm};
-  color: ${props => (props.isActive ? colors.green : colors.slate)};
+  color: ${props => (props.isActive ? colors.accent : colors.text)};
   ${media.tablet`padding: 0 15px 2px;`};
   ${media.thone`
     ${mixins.flexCenter};
     padding: 0 15px;
     text-align: center;
     border-left: 0;
-    border-bottom: 2px solid ${colors.lightestNavy};
+    border-bottom: 2px solid ${colors.lightestBg};
     min-width: 175px;
   `};
   &:hover {
-    background-color: ${colors.lightNavy};
-  };
+    background-color: ${colors.lightBg};
+  }
 `;
 const StyledHighlight = styled.span`
   display: block;
-  background: ${colors.green};
+  background: ${colors.accent};
   width: 2px;
   height: ${theme.tabHeight}px;
   border-radius: ${theme.borderRadius};
@@ -133,20 +133,20 @@ const StyledTabContent = styled.div`
   }
 `;
 const StyledJobTitle = styled.h4`
-  color: ${colors.lightestSlate};
+  color: ${colors.lightestText};
   font-size: ${fontSizes.xxl};
   font-weight: 500;
   margin-bottom: 5px;
 `;
 const StyledCompany = styled.span`
-  color: ${colors.green};
+  color: ${colors.accent};
 `;
 const StyledJobDetails = styled.h5`
   font-family: ${fonts.Highlight};
   font-size: ${fontSizes.sm};
   font-weight: normal;
   letter-spacing: 0.05em;
-  color: ${colors.lightSlate};
+  color: ${colors.lightText};
   margin-bottom: 30px;
   svg {
     width: 15px;

@@ -6,19 +6,19 @@ const BG = '#223246';
 
 const theme = {
   colors: {
-    darkNavy: DARK_BG,
-    navy: BG,
-    lightNavy: '#2D435F',
-    lightestNavy: '#2D435F',
-    slate: '#cbb496',
-    lightSlate: '#cbb496',
-    lightestSlate: '#b49369',
+    darkBg: DARK_BG,
+    bg: BG,
+    lightBg: '#2D435F',
+    lightestBg: '#2D435F',
+    text: '#cbb496',
+    lightText: '#cbb496',
+    lightestText: '#b49369',
     white: '#FAF1CF',
-    green: ACCENT,
+    accent: ACCENT,
     overlay: hex2rgba(ACCENT, 0.7),
-    transGreen: hex2rgba(ACCENT, 0.07),
-    shadowNavy: hex2rgba(DARK_BG, 0.7),
-    alphaNavy: hex2rgba(BG, 0.9),
+    transAccent: hex2rgba(ACCENT, 0.07),
+    shadowBg: hex2rgba(DARK_BG, 0.7),
+    alphaBg: hex2rgba(BG, 0.9),
   },
 
   fonts: {

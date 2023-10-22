@@ -17,7 +17,7 @@ const StyledContainer = styled(Section)`
   }
 `;
 const StyledOverline = styled.h1`
-  color: ${colors.green};
+  color: ${colors.accent};
   margin: 0 0 20px 3px;
   font-size: ${fontSizes.md};
   font-family: ${fonts.Highlight};
@@ -37,7 +37,7 @@ const StyledTitle = styled.h2`
 const StyledSubtitle = styled.h3`
   font-size: 70px;
   line-height: 1.1;
-  color: ${colors.slate};
+  color: ${colors.text};
   ${media.desktop`font-size: 60px;`};
   ${media.tablet`font-size: 50px;`};
   ${media.phablet`font-size: 40px;`};

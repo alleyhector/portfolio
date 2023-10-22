@@ -31,11 +31,11 @@ const StyledTagsContainer = styled(Main)`
         font-size: inherit;
         margin: 0;
         a {
-          color: ${colors.lightSlate};
+          color: ${colors.lightText};
         }
       }
       .subtitle {
-        color: ${colors.slate};
+        color: ${colors.text};
         font-size: ${fontSizes.sm};
 
         .tag {
@@ -122,23 +122,25 @@ TagTemplate.propTypes = {
   location: PropTypes.object,
 };
 
-export const pageQuery = graphql`query ($tag: String!) {
-  allMarkdownRemark(
-    limit: 2000
-    sort: {frontmatter: {date: DESC}}
-    filter: {frontmatter: {tags: {in: [$tag]}}}
-  ) {
-    totalCount
-    edges {
-      node {
-        frontmatter {
-          title
-          description
-          date
-          slug
-          tags
+export const pageQuery = graphql`
+  query ($tag: String!) {
+    allMarkdownRemark(
+      limit: 2000
+      sort: { frontmatter: { date: DESC } }
+      filter: { frontmatter: { tags: { in: [$tag] } } }
+    ) {
+      totalCount
+      edges {
+        node {
+          frontmatter {
+            title
+            description
+            date
+            slug
+            tags
+          }
         }
       }
     }
   }
-}`;
+`;

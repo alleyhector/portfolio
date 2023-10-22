@@ -17,7 +17,8 @@ const StyledMainContainer = styled(Main)`
     a {
       &:hover,
       &:focus {
-        cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>⚡</text></svg>")
+        cursor:
+          url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>⚡</text></svg>")
             20 0,
           auto;
       }
@@ -51,7 +52,7 @@ const StyledPostInner = styled.div`
   height: 100%;
   border-radius: ${theme.borderRadius};
   transition: ${theme.transition};
-  background-color: ${colors.lightNavy};
+  background-color: ${colors.lightBg};
   header,
   a {
     width: 100%;
@@ -73,7 +74,7 @@ const StyledPostHeader = styled.div`
   margin-bottom: 30px;
 `;
 const StyledFolder = styled.div`
-  color: ${colors.green};
+  color: ${colors.accent};
   svg {
     width: 40px;
     height: 40px;
@@ -82,17 +83,17 @@ const StyledFolder = styled.div`
 const StyledPostName = styled.h5`
   margin: 0 0 10px;
   font-size: ${fontSizes.xxl};
-  color: ${colors.lightestSlate};
+  color: ${colors.lightestText};
 `;
 const StyledPostDescription = styled.div`
   font-size: 17px;
-  color: ${colors.lightSlate};
+  color: ${colors.lightText};
 `;
 const StyledDate = styled.span`
   text-transform: uppercase;
   font-family: ${fonts.Highlight};
   font-size: ${fontSizes.xs};
-  color: ${colors.lightSlate};
+  color: ${colors.lightText};
 `;
 const StyledTags = styled.ul`
   display: flex;
@@ -105,7 +106,7 @@ const StyledTags = styled.ul`
   li {
     font-family: ${fonts.Highlight};
     font-size: ${fontSizes.xs};
-    color: ${colors.green};
+    color: ${colors.accent};
     line-height: 1.75;
     margin-right: 15px;
     &:last-of-type {
@@ -190,23 +191,25 @@ PensievePage.propTypes = {
 
 export default PensievePage;
 
-export const pageQuery = graphql`{
-  allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "/posts/"}, frontmatter: {draft: {ne: true}}}
-    sort: {frontmatter: {date: DESC}}
-  ) {
-    edges {
-      node {
-        frontmatter {
-          title
-          description
-          slug
-          date
-          tags
-          draft
+export const pageQuery = graphql`
+  {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/posts/" }, frontmatter: { draft: { ne: true } } }
+      sort: { frontmatter: { date: DESC } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            description
+            slug
+            date
+            tags
+            draft
+          }
+          html
         }
-        html
       }
     }
   }
-}`;
+`;

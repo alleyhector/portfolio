@@ -28,8 +28,8 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: ${colors.navy};
-    color: ${colors.slate};
+    background-color: ${colors.bg};
+    color: ${colors.text};
     line-height: 1.3;
     font-family: ${fonts.Main};
     font-size: ${fontSizes.lg};
@@ -50,8 +50,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    background-color: ${colors.slate};
-    color: ${colors.lightestSlate};
+    background-color: ${colors.text};
+    color: ${colors.lightestText};
   }
 
   #root {
@@ -68,7 +68,7 @@ const GlobalStyle = createGlobalStyle`
   h5,
   h6 {
     font-weight: 600;
-    color: ${colors.lightestSlate};
+    color: ${colors.lightestText};
     margin: 0 0 10px 0;
   }
 
@@ -121,7 +121,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      color: ${colors.green};
+      color: ${colors.accent};
     }
   }
 
@@ -161,7 +161,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     & > code {
-      background-color: ${colors.lightNavy};
+      background-color: ${colors.lightBg};
       color: ${colors.white};
       font-size: ${fontSizes.sm};
       border-radius: ${theme.borderRadius};
@@ -183,14 +183,14 @@ const GlobalStyle = createGlobalStyle`
           content: '▹';
           position: absolute;
           left: 0;
-          color: ${colors.green};
+          color: ${colors.accent};
         }
       }
     }
   }
 
   blockquote {
-    border-left-color: ${colors.green};
+    border-left-color: ${colors.accent};
     border-left-style: solid;
     border-left-width: 1px;
     margin-left: 0px;
@@ -204,7 +204,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   hr {
-    background-color: ${colors.lightestNavy};
+    background-color: ${colors.lightestBg};
     height: 1px;
     border-width: 0px;
     border-style: initial;
@@ -219,18 +219,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #logo {
-    color: ${colors.green};
+    color: ${colors.accent};
   }
 
   .overline {
-    color: ${colors.green};
+    color: ${colors.accent};
     font-family: ${fonts.Highlight};
     font-size: ${fontSizes.md};
     font-weight: normal;
   }
 
   .subtitle {
-    color: ${colors.green};
+    color: ${colors.accent};
     margin: 0 0 20px 0;
     font-size: ${fontSizes.md};
     font-family: ${fonts.Highlight};
@@ -249,7 +249,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     align-items: center;
     margin-bottom: 50px;
-    color: ${colors.green};
+    color: ${colors.accent};
 
     .arrow {
       display: block;

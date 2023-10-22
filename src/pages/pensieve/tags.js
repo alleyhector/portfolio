@@ -15,15 +15,15 @@ const StyledTagsContainer = styled(Main)`
     margin-bottom: 50px;
   }
   ul {
-    color: ${colors.lightSlate};
+    color: ${colors.lightText};
     li {
       font-size: ${fontSizes.xxl};
 
       a {
         ${mixins.inlineLink};
-        color: ${colors.lightSlate};
+        color: ${colors.lightText};
         .count {
-          color: ${colors.slate};
+          color: ${colors.text};
           font-family: ${fonts.Highlight};
           font-size: ${fontSizes.md};
         }
@@ -85,16 +85,18 @@ TagsPage.propTypes = {
 
 export default TagsPage;
 
-export const pageQuery = graphql`{
-  site {
-    siteMetadata {
-      title
+export const pageQuery = graphql`
+  {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allMarkdownRemark(limit: 2000, filter: { frontmatter: { draft: { ne: true } } }) {
+      group(field: { frontmatter: { tags: SELECT } }) {
+        fieldValue
+        totalCount
+      }
     }
   }
-  allMarkdownRemark(limit: 2000, filter: {frontmatter: {draft: {ne: true}}}) {
-    group(field: {frontmatter: {tags: SELECT}}) {
-      fieldValue
-      totalCount
-    }
-  }
-}`;
+`;

@@ -29,7 +29,7 @@ const FullBackground = ({ children }) => {
   // positions! The lowermost image comes last!
   const backgroundFluidImageStack = [
     desktop.childImageSharp.fluid,
-    `linear-gradient(${colors.alphaNavy}, ${colors.alphaNavy})`,
+    `linear-gradient(${colors.alphaBg}, ${colors.alphaBg})`,
   ].reverse();
 
   return (
