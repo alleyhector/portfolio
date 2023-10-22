@@ -113,12 +113,12 @@ const StyledFeaturedImg = styled(Img)`
   border-radius: ${theme.borderRadius};
   position: relative;
   mix-blend-mode: multiply;
-  filter: grayscale(100%) contrast(1) brightness(90%);
+  filter: grayscale(95%) contrast(1) brightness(90%);
   ${media.tablet`
     object-fit: cover;
     width: auto;
     height: 100%;
-    filter: grayscale(100%) contrast(1) brightness(80%);
+    filter: grayscale(95%) contrast(1) brightness(80%);
   `};
 `;
 const StyledImgContainer = styled.a`

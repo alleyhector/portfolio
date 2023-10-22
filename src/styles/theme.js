@@ -15,16 +15,15 @@ const theme = {
     lightestSlate: '#b49369',
     white: '#FAF1CF',
     green: ACCENT,
+    overlay: hex2rgba(ACCENT, 0.7),
     transGreen: hex2rgba(ACCENT, 0.07),
     shadowNavy: hex2rgba(DARK_BG, 0.7),
     alphaNavy: hex2rgba(BG, 0.9),
   },
 
   fonts: {
-    Main:
-      'Roboto Condensed, Roboto, Lato, Arial, sans-serif',
-    Highlight:
-      'Raleway, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif',
+    Main: 'Roboto Condensed, Roboto, Lato, Arial, sans-serif',
+    Highlight: 'Raleway, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif',
     Calibre:
       'Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif', // old main
     SFMono: 'SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace', // old highlight
