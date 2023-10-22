@@ -13,24 +13,23 @@ const { colors } = theme;
  * @constructor
  */
 const FullBackground = ({ children }) => {
-  const { desktop } = useStaticQuery(
-    graphql`
-      query {
-        desktop: file(relativePath: { eq: "bg/pompidou.jpg" }) {
-          childImageSharp {
-            fluid(quality: 90, maxWidth: 3024) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
+  const { desktop } = useStaticQuery(graphql`
+    query {
+      desktop: file(relativePath: { eq: "bg/bike.jpg" }) {
+        childImageSharp {
+          fluid(quality: 90, maxWidth: 3024) {
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
       }
-    `);
+    }
+  `);
 
   // Watch out for CSS's stacking order, especially when styling the individual
   // positions! The lowermost image comes last!
   const backgroundFluidImageStack = [
     desktop.childImageSharp.fluid,
-    `linear-gradient(${colors.alphaNavy}, ${colors.alphaNavy})`,
+    `linear-gradient(${colors.alphaBg}, ${colors.alphaBg})`,
   ].reverse();
 
   return (
@@ -48,14 +47,12 @@ const FullBackground = ({ children }) => {
         backgroundPosition: 'center center',
         // backgroundRepeat: '',
         backgroundAttachment: 'fixed',
-      }}
-    >
+      }}>
       {children}
     </BackgroundImage>
   );
 };
 
-const StyledFullBackground = styled(FullBackground)`
-`;
+const StyledFullBackground = styled(FullBackground)``;
 
 export default StyledFullBackground;

@@ -15,7 +15,7 @@ const StyledContainer = styled.footer`
   min-height: 70px;
 `;
 const StyledSocial = styled.div`
-  color: ${colors.lightSlate};
+  color: ${colors.lightText};
   width: 100%;
   max-width: 270px;
   margin: 0 auto 10px;
@@ -41,7 +41,7 @@ const StyledMetadata = styled.div`
   line-height: 1;
 `;
 const StyledGitHubLink = styled.a`
-  color: ${colors.lightSlate};
+  color: ${colors.lightText};
   padding: 10px;
 `;
 const StyledGitHubInfo = styled.div`
@@ -101,7 +101,8 @@ const Footer = () => {
         </StyledSocialList>
       </StyledSocial>
       <StyledMetadata tabindex="-1">
-        Copyright &copy; 2020 Alley Hector<br />
+        Copyright &copy; 2020 Alley Hector
+        <br />
         <StyledGitHubLink
           href="https://github.com/bchiang7/v4"
           target="_blank"

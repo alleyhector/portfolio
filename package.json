@@ -1,7 +1,7 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
-  "version": "1.0.0",
+  "name": "alleyhector-portfolio",
+  "description": "Alley's Portfolio",
+  "version": "1.1.0",
   "author": "Alley Hector <alley@qpdx.com>",
   "repository": {
     "type": "git",

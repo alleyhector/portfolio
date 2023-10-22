@@ -32,7 +32,7 @@ const StyledTable = styled.table`
 
     &:hover,
     &:focus {
-      background-color: ${colors.lightNavy};
+      background-color: ${colors.lightBg};
     }
   }
   th,
@@ -56,7 +56,7 @@ const StyledTable = styled.table`
     }
     &.title {
       padding-top: 15px;
-      color: ${colors.lightestSlate};
+      color: ${colors.lightestText};
       font-size: ${fontSizes.xl};
       font-weight: 700;
     }
@@ -133,17 +133,8 @@ const ArchivePage = ({ location, data }) => {
             <tbody>
               {projects.length > 0 &&
                 projects.map(({ node }, i) => {
-                  const {
-                    date,
-                    github,
-                    pub,
-                    external,
-                    ios,
-                    android,
-                    title,
-                    tech,
-                    company,
-                  } = node.frontmatter;
+                  const { date, github, pub, external, ios, android, title, tech, company } =
+                    node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
                       <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
@@ -231,26 +222,28 @@ ArchivePage.propTypes = {
 
 export default ArchivePage;
 
-export const pageQuery = graphql`{
-  allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "/projects/"}}
-    sort: {frontmatter: {date: DESC}}
-  ) {
-    edges {
-      node {
-        frontmatter {
-          date
-          title
-          tech
-          github
-          external
-          ios
-          android
-          company
-          pub
+export const pageQuery = graphql`
+  {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/projects/" } }
+      sort: { frontmatter: { date: DESC } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            date
+            title
+            tech
+            github
+            external
+            ios
+            android
+            company
+            pub
+          }
+          html
         }
-        html
       }
     }
   }
-}`;
+`;
