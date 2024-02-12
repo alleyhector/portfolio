@@ -1,6 +1,6 @@
 ---
 title: 'About Me'
-avatar: './me.jpg'
+avatar: './chani-headshot.png'
 skills:
   - JavaScript (ES6+)
   - HTML & (S)CSS
@@ -8,7 +8,7 @@ skills:
   - Node.js
   - Writing
   - Blogging
-  - Journalism 
+  - Journalism
   - Social media management
   - Copywriting & editing
   - SEO
