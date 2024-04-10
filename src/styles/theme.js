@@ -1,19 +1,19 @@
 import { hex2rgba } from '@utils';
 
-const ACCENT = '#7AA34B'; // Links on both dark & light backgrounds
-const DARK_BG = '#273A52'; // Intro bg only
-const BG = '#223246';
+const ACCENT = '#f6c500'; // Links on both dark & light backgrounds
+const DARK_BG = '#2e4412'; // Intro bg only
+const BG = '#2e4412';
 
 const theme = {
   colors: {
     darkBg: DARK_BG,
     bg: BG,
-    lightBg: '#2D435F', // Featured sections bg & client rollover bg
-    lightestBg: '#2D435F', // Small line accents only
-    text: '#cbb496', // Main text on both featured in plan sections
-    lightText: '#cbb496', // Text on featured sections & socials
-    lightestText: '#b49369', // Main header text & nav
-    white: '#FAF1CF',
+    lightBg: '#432616', // Featured sections bg & client rollover bg
+    lightestBg: '#432616', // Small line accents only
+    text: '#f9ebcd', // Main text on main bg
+    lightText: '#f9ebcd', // Text on featured sections & socials
+    lightestText: '#f78c56', // Main header text & nav
+    white: '#fff',
     accent: ACCENT,
     overlay: hex2rgba(ACCENT, 0.7),
     transAccent: hex2rgba(ACCENT, 0.07),
