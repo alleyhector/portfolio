@@ -78,6 +78,7 @@ const mixins = {
     padding: 0.75rem 1rem;
     font-size: ${fontSizes.smish};
     font-family: ${fonts.Highlight};
+    font-weight: 700;
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
@@ -99,6 +100,7 @@ const mixins = {
     border-radius: ${theme.borderRadius};
     padding: 1.25rem 1.75rem;
     font-size: ${fontSizes.sm};
+    font-weight: 700;
     font-family: ${fonts.Highlight};
     line-height: 1;
     text-decoration: none;

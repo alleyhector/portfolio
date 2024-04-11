@@ -36,7 +36,6 @@ const StyledPostContent = styled.div`
 `;
 
 const PostTemplate = ({ data, location }) => {
-  console.log('Data: ', data);
   const { frontmatter, html } = data.markdownRemark;
   const { title, date, tags } = frontmatter;
 
@@ -73,7 +72,6 @@ const PostTemplate = ({ data, location }) => {
               ))}
           </p>
         </StyledPostHeader>
-
         <StyledPostContent dangerouslySetInnerHTML={{ __html: html }} />
       </StyledPostContainer>
     </Layout>
@@ -88,8 +86,8 @@ PostTemplate.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query ($path: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $path } }) {
+  query ($slug: String!) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
         title

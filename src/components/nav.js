@@ -38,6 +38,7 @@ const StyledNav = styled.nav`
   width: 100%;
   color: ${colors.lightestText};
   font-family: ${fonts.Highlight};
+  font-weight: 700;
   counter-reset: item 0;
   z-index: 12;
 `;

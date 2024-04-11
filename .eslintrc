@@ -1,3 +1,9 @@
 {
-  "extends": "@upstatement/eslint-config/react"
+  "extends": "@upstatement/eslint-config/react",
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
 }
