@@ -65,6 +65,7 @@ const Footer = () => {
     stars: null,
     forks: null,
   });
+  const currentYear = new Date().getFullYear();
 
   useEffect(() => {
     if (process.env.NODE_ENV !== 'production') {
@@ -101,7 +102,7 @@ const Footer = () => {
         </StyledSocialList>
       </StyledSocial>
       <StyledMetadata tabindex="-1">
-        Copyright &copy; 2020 Alley Hector
+        Copyright &copy; {currentYear} Alley Hector
         <br />
         <StyledGitHubLink
           href="https://github.com/bchiang7/v4"
