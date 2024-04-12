@@ -8,6 +8,7 @@ const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled.footer`
   ${mixins.flexCenter};
+  background-color: ${colors.bg};
   flex-direction: column;
   padding: 15px;
   text-align: center;
