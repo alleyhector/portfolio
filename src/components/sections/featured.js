@@ -88,6 +88,7 @@ const StyledTechList = styled.ul`
     ${media.thone`
       color: ${colors.lightestText};
       margin-right: 10px;
+      font-weight: 700;
     `};
   }
 `;
@@ -167,6 +168,8 @@ const StyledProject = styled.div`
   margin-bottom: 100px;
   ${media.thone`
     margin-bottom: 70px;
+    background-color: ${colors.lightBg};
+    border: 1px solid ${colors.accent};
   `};
   &:last-of-type {
     margin-bottom: 0;

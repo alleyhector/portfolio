@@ -32,6 +32,7 @@ const Sidebar = styled.aside`
   right: 0;
   margin-left: auto;
   font-family: ${fonts.Highlight};
+  font-weight: 700;
   box-shadow: -10px 0px 30px -15px ${colors.shadowBg};
   ${media.thone`padding: 25px;`};
   ${media.phablet`width: 75vw;`};
