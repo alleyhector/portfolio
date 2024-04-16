@@ -30,10 +30,10 @@ module.exports = {
       name: 'Instagram',
       url: 'https://www.instagram.com/alleyhector',
     },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/qpdx',
-    },
+    // {
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/qpdx',
+    // },
   ],
 
   navLinks: [
@@ -46,7 +46,7 @@ module.exports = {
       url: '/#jobs',
     },
     {
-      name: 'Web Solutions',
+      name: 'App Solutions',
       url: '/#projects',
     },
     {
