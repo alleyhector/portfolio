@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import StyledFullBackground from '../components/bgimage';
+import StyledFullBackground from '../components/bgslide';
 import { Head, Loader, Nav, Social, Email, Footer } from '@components';
 import styled from 'styled-components';
 import { GlobalStyle, theme, media } from '@styles';
