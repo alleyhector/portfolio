@@ -2,7 +2,7 @@ import { hex2rgba } from '@utils';
 
 const ACCENT = '#7AA34B'; // Links on both dark & light backgrounds
 const DARK_BG = '#273A52'; // Intro bg only
-const BG = '#223246';
+const BG = '#000';
 
 const theme = {
   colors: {
