@@ -7,6 +7,7 @@ module.exports = {
   siteUrl: 'https://alleyhector.com',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-11079764-4',
+  g4AnalyticsID: 'G-HRG0VWSMEE',
   googleVerification: '8ewKpV-UpRO4Zn1ITh_gNvwiE8UM0226Srz04Ti8o9g',
   name: 'Alley Hector',
   location: 'Portland, OR',
