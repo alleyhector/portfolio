@@ -51,12 +51,6 @@ This was built in [Gatsby](https://www.gatsbyjs.org/), a free and open source fr
 4. Start the development server
 
    ```sh
-   npm start
-   ```
-
-   or
-
-   ```sh
    gatsby develop
    ```
 
