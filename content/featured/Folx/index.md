@@ -10,6 +10,7 @@ tech:
   - React
   - Butter CMS
   - Front-End Dev
+  - Strategy
 showInProjects: true
 ---
 

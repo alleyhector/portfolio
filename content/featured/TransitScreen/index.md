@@ -11,6 +11,7 @@ tech:
   - Google Maps API integration
   - Leaflet map display
   - Mobility Score API integration
+  - Marketing strategy
 showInProjects: true
 ---
 

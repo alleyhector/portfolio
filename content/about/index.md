@@ -4,8 +4,8 @@ avatar: './chani-headshot.png'
 skills:
   - JavaScript (ES6+)
   - React
-  - Engineering Management
   - UX Design and Management
+  - Engineering Management
   - Content Strategy
   - HTML & (S)CSS
   - Node.js
@@ -17,8 +17,8 @@ skills:
   - SEO
   - Content Management & Analysis
   - Design & Adobe Creative Suite
-  - Git & repo Management
-  - Audio/video editing
+  - Git & Repo Management
+  - Audio/Video editing
 ---
 
 Hello! I'm Alley Hector, a designer, developer, software engineer, content curator and writer. This diverse skill set allows me to help my clients connect and engage with their audience on any platform.
