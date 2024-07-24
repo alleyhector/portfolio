@@ -5,12 +5,13 @@ cover: './chani.png'
 github: 'https://github.com/chani-nicholas-inc'
 external: 'https://www.chaninicholas.com/'
 tech:
+  - UX/Engineering Management
   - Next.js
   - Typescript
   - React/Native
   - Contentful
   - Front-End Dev
-  - Audio Production
+  - Audio/Video Production
   - Copy Editing
 showInProjects: true
 ---

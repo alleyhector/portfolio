@@ -6,6 +6,7 @@ github: ''
 external: 'https://travelportland.com/'
 tech:
   - Content Curation & Migrations
+  - Marketing/Content Strategy
   - Copywriting
   - Copyediting
   - Events Management

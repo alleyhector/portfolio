@@ -51,12 +51,6 @@ This was built in [Gatsby](https://www.gatsbyjs.org/), a free and open source fr
 4. Start the development server
 
    ```sh
-   npm start
-   ```
-
-   or
-
-   ```sh
    gatsby develop
    ```
 
@@ -82,7 +76,7 @@ Can be found in the `theme.js` file
 | --------- | ------------------------------------------------------------------ |
 | Dark BG   | ![#273A52](https://via.placeholder.com/10/273A52?text=+) `#273A52` |
 | BG        | ![#223246](https://via.placeholder.com/10/223246?text=+) `#223246` |
-| Light BG  | ![#2D435F](https://via.placeholder.com/10/2D435F?text=+) `#2D435F` |
+| Light BG  | ![#2d435f](https://via.placeholder.com/10/2d435f?text=+) `#2D435F` |
 | Main      | ![#cbb496](https://via.placeholder.com/10/cbb496?text=+) `#cbb496` |
 | Secondary | ![#b49369](https://via.placeholder.com/10/b49369?text=+) `#b49369` |
 | Off White | ![#FAF1CF](https://via.placeholder.com/10/FAF1CF?text=+) `#FAF1CF` |
