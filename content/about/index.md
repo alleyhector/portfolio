@@ -14,8 +14,8 @@ skills:
   - Journalism
   - Social Media Management
   - Copywriting & Editing
-  - SEO
   - Content Management & Analysis
+  - SEO
   - Design & Adobe Creative Suite
   - Git & Repo Management
   - Audio/Video editing
