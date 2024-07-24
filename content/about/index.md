@@ -3,18 +3,21 @@ title: 'About Me'
 avatar: './chani-headshot.png'
 skills:
   - JavaScript (ES6+)
-  - HTML & (S)CSS
   - React
+  - Engineering Management
+  - UX Design and Management
+  - Content Strategy
+  - HTML & (S)CSS
   - Node.js
   - Writing
   - Blogging
   - Journalism
-  - Social media management
-  - Copywriting & editing
+  - Social Media Management
+  - Copywriting & Editing
   - SEO
-  - Content management & analysis
+  - Content Management & Analysis
   - Design & Adobe Creative Suite
-  - Git & repo management
+  - Git & repo Management
   - Audio/video editing
 ---
 
