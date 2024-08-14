@@ -67,7 +67,7 @@
     "styled-components": "^6.0.9"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.2",
+    "@babel/core": "^7.25.2",
     "@babel/eslint-parser": "^7.25.1",
     "@upstatement/eslint-config": "3.0.0",
     "@upstatement/prettier-config": "^1.1.0",
