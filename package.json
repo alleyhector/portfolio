@@ -22,9 +22,7 @@
     "lint-staged": "pnpm exec lint-staged"
   },
   "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "pre-commit": "lint-staged"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
