@@ -32,7 +32,8 @@
       "git add"
     ],
     "*.js": [
-      "eslint --fix"
+      "eslint --fix",
+      "git add"
     ]
   },
   "dependencies": {
