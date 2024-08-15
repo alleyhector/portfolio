@@ -45,7 +45,7 @@ This was built in [Gatsby](https://www.gatsbyjs.org/), a free and open source fr
 3. Install dependencies
 
    ```sh
-   yarn
+   pnpm i
    ```
 
 4. Start the development server
@@ -59,13 +59,13 @@ This was built in [Gatsby](https://www.gatsbyjs.org/), a free and open source fr
 1. Generate a full static production build
 
    ```sh
-   npm run build
+   pnpm run build
    ```
 
 1. Preview the site as it will appear once deployed
 
    ```sh
-   npm run serve
+   pnpm run serve
    ```
 
 ## 🎨 Color Reference
