@@ -16,6 +16,7 @@ skills:
   - CSS
   - SEO
   - Optimization
+  - Mapping
 company: 'Alta Planning'
 showInProjects: false
 ---

@@ -23,6 +23,7 @@ skills:
   - Optimization
   - eCommerce
   - Marketing
+  - Mapping
 showInProjects: true
 ---
 

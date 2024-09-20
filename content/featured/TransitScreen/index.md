@@ -21,6 +21,7 @@ skills:
   - CSS
   - Marketing
   - Back End Development
+  - Mapping
 showInProjects: true
 ---
 

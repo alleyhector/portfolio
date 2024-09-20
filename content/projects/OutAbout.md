@@ -12,6 +12,10 @@ skills:
   - Travel Writing
   - Copywriting
   - Copyediting
+  - SEO
+  - Design
+  - UX
+  - Research
 company: ''
 showInProjects: true
 ---

@@ -9,7 +9,7 @@ tech:
   - Typescript
   - React
   - Butter CMS
-  - Front-End Dev
+  - Front End Dev
   - Strategy
 skills:
   - Typescript

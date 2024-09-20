@@ -12,6 +12,8 @@ skills:
   - Ghostwriting
   - Copywriting
   - Copyediting
+  - SEO
+  - Research
 company: 'Mad Fish'
 showInProjects: true
 ---

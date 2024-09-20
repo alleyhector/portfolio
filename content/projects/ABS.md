@@ -24,6 +24,7 @@ skills:
   - Optimization
   - eCommerce
   - Research
+  - Mapping
 showInProjects: true
 ---
 
