@@ -61,7 +61,7 @@ const TechTemplate = ({ pageContext, data, location }) => {
         <h1>
           <span>#{tech}</span>
           <span>
-            <Link to="/pensieve/tags">View all tags</Link>
+            <Link to="/skills">View all proficiencies</Link>
           </span>
         </h1>
 
@@ -85,7 +85,7 @@ const TechTemplate = ({ pageContext, data, location }) => {
                   {tech &&
                     tech.length > 0 &&
                     tech.map((tech, i) => (
-                      <Link key={i} to={`/pensieve/tags/${kebabCase(tech)}/`} className="tech">
+                      <Link key={i} to={`/skills/${kebabCase(tech)}/`} className="tech">
                         <br />#{tech}
                       </Link>
                     ))}

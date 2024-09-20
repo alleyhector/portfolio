@@ -77,7 +77,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // Make tag pages
   tech.forEach(tech => {
     createPage({
-      path: `/pensieve/tech/${_.kebabCase(tech.fieldValue)}/`,
+      path: `/skills/${_.kebabCase(tech.fieldValue)}/`,
       component: techTemplate,
       context: {
         tech: tech.fieldValue,

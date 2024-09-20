@@ -50,11 +50,11 @@ const SkillsPage = ({
         <Link to="/pensieve">All memories</Link>
       </span>
 
-      <h1>Tags</h1>
+      <h1>Proficiencies</h1>
       <ul className="fancy-list">
         {group.map(tech => (
           <li key={tech.fieldValue}>
-            <Link to={`/pensieve/tech/${kebabCase(tech.fieldValue)}/`}>
+            <Link to={`/skills/${kebabCase(tech.fieldValue)}/`}>
               {tech.fieldValue} <span className="count">({tech.totalCount})</span>
             </Link>
           </li>
