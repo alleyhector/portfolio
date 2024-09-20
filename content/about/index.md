@@ -1,7 +1,7 @@
 ---
 title: 'About Me'
 avatar: './chani-headshot.png'
-skills:
+attrs:
   - JavaScript (ES6+)
   - React
   - UX Design and Management

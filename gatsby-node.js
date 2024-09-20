@@ -33,8 +33,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           fieldValue
         }
       }
-      techGroup: allMarkdownRemark(limit: 2000) {
-        group(field: { frontmatter: { tech: SELECT } }) {
+      skillsGroup: allMarkdownRemark(limit: 2000) {
+        group(field: { frontmatter: { skills: SELECT } }) {
           fieldValue
         }
       }
@@ -73,14 +73,14 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     });
   });
 
-  const tech = result.data.techGroup.group;
-  // Make tag pages
-  tech.forEach(tech => {
+  const skills = result.data.skillsGroup.group;
+  // Make skills pages
+  skills.forEach(tech => {
     createPage({
-      path: `/skills/${_.kebabCase(tech.fieldValue)}/`,
+      path: `/skills/${_.kebabCase(skills.fieldValue)}/`,
       component: techTemplate,
       context: {
-        tech: tech.fieldValue,
+        skills: skills.fieldValue,
       },
     });
   });

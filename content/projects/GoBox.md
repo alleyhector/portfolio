@@ -16,7 +16,8 @@ skills:
   - Design
   - Optimization
   - eCommerce
-  - Mobile Developementcompany: 'Go Box'
+  - Mobile Development
+company: 'Go Box'
 showInProjects: true
 ---
 
