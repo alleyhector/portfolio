@@ -11,6 +11,15 @@ tech:
   - Butter CMS
   - Front-End Dev
   - Strategy
+skills:
+  - Typescript
+  - React
+  - Content Management Systems
+  - Front End Development
+  - Copy Editing
+  - UX
+  - Strategy
+  - Design
 showInProjects: true
 ---
 

@@ -7,6 +7,14 @@ tech:
   - Drupal
   - Front End Dev
   - DB/Search
+skills:
+  - Content Management Systems
+  - Front End Development
+  - UX
+  - Design
+  - CSS
+  - SEO
+  - Optimization
 company: 'Alta Planning'
 showInProjects: false
 ---

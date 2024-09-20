@@ -7,6 +7,11 @@ tech:
   - Academic Writing
   - Editing
   - Research
+skills:
+  - Writing
+  - Academic Writing
+  - Copywriting
+  - Copyediting
 company: 'PM Press'
 showInProjects: true
 ---

@@ -8,6 +8,7 @@ tech:
   - Copyediting
   - Ghostwriting
   - Infographic writing
+  - SEO
 company: 'Mad Fish'
 showInProjects: false
 ---

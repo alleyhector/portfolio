@@ -7,6 +7,11 @@ tech:
   - Copywriting
   - Copyediting
   - Ghostwriting
+skills:
+  - Writing
+  - Ghostwriting
+  - Copywriting
+  - Copyediting
 company: 'Mad Fish'
 showInProjects: true
 ---

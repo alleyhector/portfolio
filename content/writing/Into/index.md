@@ -8,9 +8,14 @@ pubtitle: Into - lgbt magazine from Grindr
 release: November 30, 2018
 tech:
   - INTO lgbt magazine from Grindr
+skills:
+  - Writing
+  - Copywriting
+  - Copyediting
+  - SEO
 showInProjects: true
 ---
 
-8 Queer Adventurers Discuss Diversity in Outdoor Culture -- *Into* spoke with eight people who head projects that share the goal of getting queer people outside.
+8 Queer Adventurers Discuss Diversity in Outdoor Culture -- _Into_ spoke with eight people who head projects that share the goal of getting queer people outside.
 
-Other pieces on *Into* include [These New Apps Rate Businesses Based on Size, Gender, Disability, and POC Accessibility](https://www.intomore.com/culture/these-new-apps-rate-businesses-based-on-size-gender-disability-and-poc-comfort) and [How Trip-Planning Apps Use Data to Keep LGBTQ Travelers Safe](https://www.intomore.com/travel/how-trip-planning-apps-use-data-to-keep-lgbtq-travelers-safe). More journalistic and commercial writing on [Contently](https://alleyhector.contently.com/).
+Other pieces on _Into_ include [These New Apps Rate Businesses Based on Size, Gender, Disability, and POC Accessibility](https://www.intomore.com/culture/these-new-apps-rate-businesses-based-on-size-gender-disability-and-poc-comfort) and [How Trip-Planning Apps Use Data to Keep LGBTQ Travelers Safe](https://www.intomore.com/travel/how-trip-planning-apps-use-data-to-keep-lgbtq-travelers-safe). More journalistic and commercial writing on [Contently](https://alleyhector.contently.com/).

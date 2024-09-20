@@ -10,7 +10,13 @@ tech:
   - Wordpress
   - App Dev
   - Front End Dev
-company: 'Go Box'
+skills:
+  - Content Management Systems
+  - Front End Development
+  - Design
+  - Optimization
+  - eCommerce
+  - Mobile Developementcompany: 'Go Box'
 showInProjects: true
 ---
 

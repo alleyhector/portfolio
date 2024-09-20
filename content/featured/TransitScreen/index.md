@@ -12,6 +12,15 @@ tech:
   - Leaflet map display
   - Mobility Score API integration
   - Marketing strategy
+skills:
+  - Javascript
+  - React
+  - Content Management Systems
+  - Front End Development
+  - Strategy
+  - CSS
+  - Marketing
+  - Back End Development
 showInProjects: true
 ---
 

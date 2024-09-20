@@ -12,7 +12,28 @@ tech:
   - Contentful
   - Front-End Dev
   - Audio/Video Production
-  - Copy Editing
+  - Copyediting
+skills:
+  - Engineering Management
+  - APIs
+  - Typescript
+  - Javascript
+  - React
+  - React Native
+  - Content Management Systems
+  - Front End Development
+  - Audio/Video Production
+  - Copyediting
+  - UX
+  - Strategy
+  - Design
+  - CSS
+  - SEO
+  - Optimization
+  - eCommerce
+  - Marketing
+  - Research
+  - Mobile Development
 showInProjects: true
 ---
 

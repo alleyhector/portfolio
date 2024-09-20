@@ -6,6 +6,11 @@ external: './work/MagicalZine-excerpt.pdf'
 tech:
   - Fiction Writing
   - Tarot
+skills:
+  - Writing
+  - Fiction Writing
+  - Copywriting
+  - Copyediting
 company: 'Ariel Gore\`s Literary Kitchen'
 showInProjects: false
 ---

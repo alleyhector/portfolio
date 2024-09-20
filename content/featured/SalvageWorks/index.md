@@ -8,6 +8,14 @@ tech:
   - Design
   - Front-End Dev
   - Shopify
+skills:
+  - Content Management Systems
+  - Front End Development
+  - Design
+  - CSS
+  - SEO
+  - Optimization
+  - eCommerce
 showInProjects: false
 ---
 

@@ -9,6 +9,11 @@ release: 'February 2020'
 tech:
   - NYLON magazine
   - February 2020
+skills:
+  - Writing
+  - Copywriting
+  - Copyediting
+  - SEO
 showInProjects: true
 ---
 

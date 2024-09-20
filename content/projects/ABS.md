@@ -11,6 +11,19 @@ tech:
   - Front End Dev
   - Back End Dev
 company: 'Alta/Motivate/Lyft'
+skills:
+  - Javascript
+  - PHP
+  - APIs
+  - Content Management Systems
+  - Front End Development
+  - Back End Development
+  - Design
+  - CSS
+  - SEO
+  - Optimization
+  - eCommerce
+  - Research
 showInProjects: true
 ---
 

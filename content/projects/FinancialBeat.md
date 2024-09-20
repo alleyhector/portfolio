@@ -8,6 +8,20 @@ tech:
   - Wordpress
   - ClientPortal
   - Front End Dev
+skills:
+  - PHP
+  - Content Management Systems
+  - Front End Development
+  - Copyediting
+  - UX
+  - Strategy
+  - Design
+  - CSS
+  - SEO
+  - Optimization
+  - eCommerce
+  - Marketing
+  - Research
 company: ''
 showInProjects: true
 ---

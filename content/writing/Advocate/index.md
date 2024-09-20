@@ -9,6 +9,12 @@ release: 'March 30, 2018'
 tech:
   - THE ADVOCATE
   - March 30, 2018
+skills:
+  - Writing
+  - Copywriting
+  - Copyediting
+  - SEO
+  - Research
 showInProjects: true
 ---
 

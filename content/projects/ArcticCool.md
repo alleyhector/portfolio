@@ -8,6 +8,18 @@ tech:
   - Wordpress
   - WooCommerce
   - Front End Dev
+skills:
+  - Content Management Systems
+  - Front End Development
+  - Copyediting
+  - Strategy
+  - Design
+  - CSS
+  - SEO
+  - Optimization
+  - eCommerce
+  - Marketing
+  - Research
 company: 'Get Lagos consulting'
 showInProjects: false
 ---

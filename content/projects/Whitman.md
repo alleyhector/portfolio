@@ -9,6 +9,14 @@ tech:
   - WP Blog Manager
   - Design
   - Front End Dev
+skills:
+  - Content Management Systems
+  - Front End Development
+  - UX
+  - Design
+  - CSS
+  - SEO
+  - Optimization
 company: ''
 showInProjects: true
 ---

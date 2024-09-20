@@ -7,6 +7,13 @@ tech:
   - Wordpress
   - WP Job Manager
   - Front End Dev
+skills:
+  - Content Management Systems
+  - Front End Development
+  - Design
+  - CSS
+  - SEO
+  - Optimization
 company: 'Get Lagos consulting'
 showInProjects: false
 ---

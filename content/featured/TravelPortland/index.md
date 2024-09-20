@@ -11,6 +11,18 @@ tech:
   - Copyediting
   - Events Management
   - Layout & Design
+skills:
+  - Content Management Systems
+  - Copyediting
+  - Copywriting
+  - UX
+  - Strategy
+  - Design
+  - CSS
+  - SEO
+  - Optimization
+  - eCommerce
+  - Marketing
 showInProjects: true
 ---
 

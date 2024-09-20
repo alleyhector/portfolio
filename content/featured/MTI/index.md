@@ -10,6 +10,13 @@ tech:
   - Twig
   - Front-End Dev
   - Optimization
+skills:
+  - PHP
+  - CSS
+  - Content Management Systems
+  - Front End Development
+  - SEO
+  - Optimization
 showInProjects: false
 ---
 
