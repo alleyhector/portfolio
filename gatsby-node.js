@@ -11,27 +11,35 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
   const postTemplate = path.resolve(`src/templates/post.js`);
   const tagTemplate = path.resolve(`src/templates/tag.js`);
+  const techTemplate = path.resolve(`src/templates/tech.js`);
 
-  const result = await graphql(`{
-  postsRemark: allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "/posts/"}}
-    sort: {frontmatter: {date: DESC}}
-    limit: 1000
-  ) {
-    edges {
-      node {
-        frontmatter {
-          slug
+  const result = await graphql(`
+    {
+      postsRemark: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/posts/" } }
+        sort: { frontmatter: { date: DESC } }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            frontmatter {
+              slug
+            }
+          }
+        }
+      }
+      tagsGroup: allMarkdownRemark(limit: 2000) {
+        group(field: { frontmatter: { tags: SELECT } }) {
+          fieldValue
+        }
+      }
+      techGroup: allMarkdownRemark(limit: 2000) {
+        group(field: { frontmatter: { tech: SELECT } }) {
+          fieldValue
         }
       }
     }
-  }
-  tagsGroup: allMarkdownRemark(limit: 2000) {
-    group(field: {frontmatter: {tags: SELECT}}) {
-      fieldValue
-    }
-  }
-}`);
+  `);
 
   // Handle errors
   if (result.errors) {
@@ -61,6 +69,18 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       component: tagTemplate,
       context: {
         tag: tag.fieldValue,
+      },
+    });
+  });
+
+  const tech = result.data.techGroup.group;
+  // Make tag pages
+  tech.forEach(tech => {
+    createPage({
+      path: `/pensieve/tech/${_.kebabCase(tech.fieldValue)}/`,
+      component: techTemplate,
+      context: {
+        tech: tech.fieldValue,
       },
     });
   });
