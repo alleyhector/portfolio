@@ -85,7 +85,7 @@ export const pageQuery = graphql`
         fileAbsolutePath: { regex: "/featured/" }
         frontmatter: { showInProjects: { ne: false } }
       }
-      sort: { frontmatter: { date: ASC } }
+      sort: { frontmatter: { date: DESC } }
     ) {
       edges {
         node {
