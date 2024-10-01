@@ -6,7 +6,7 @@ external: 'https://lexiconsolutions.com/'
 tech:
   - Wordpress
   - WP Job Manager
-  - Front End Dev
+  - Figma
 skills:
   - Content Management Systems
   - Front End Development
@@ -14,6 +14,8 @@ skills:
   - CSS
   - SEO
   - Optimization
+  - Database Management
+  - Javascript
 company: 'Get Lagos consulting'
 showInProjects: false
 ---

@@ -8,8 +8,12 @@ android: ''
 tech:
   - Swift
   - Wordpress
-  - App Dev
-  - Front End Dev
+  - Appstore
+  - Photoshop
+  - Illustrator
+  - Github
+  - Google Maps
+  - Twig
 skills:
   - Content Management Systems
   - Front End Development

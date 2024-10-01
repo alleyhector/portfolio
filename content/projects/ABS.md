@@ -4,14 +4,19 @@ title: 'Alta Bike Share'
 github: ''
 external: 'https://www.motivateco.com/'
 tech:
-  - PHP/Codeigniter
+  - Codeigniter
   - Foundation
   - D3
-  - APIs
-  - Front End Dev
-  - Back End Dev
+  - Concrete CMS
+  - Github
+  - Photoshop
+  - Illustrator
+  - Figma
+  - Google Maps
+  - Docker
 company: 'Alta/Motivate/Lyft'
 skills:
+  - Agile/SCRUM
   - Javascript
   - PHP
   - APIs

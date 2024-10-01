@@ -5,9 +5,9 @@ github: ''
 external: 'https://sparetheairyouth.org/'
 tech:
   - Drupal
-  - Design
-  - Front End Dev
-  - DB/Search
+  - Photoshop
+  - Illustrator
+  - Google Maps
 skills:
   - Content Management Systems
   - Front End Development
@@ -17,6 +17,8 @@ skills:
   - SEO
   - Optimization
   - Mapping
+  - Database Management
+  - Javascript
 company: 'Alta Planning'
 showInProjects: false
 ---

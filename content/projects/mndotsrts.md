@@ -5,10 +5,12 @@ github: ''
 external: 'http://mndotsrts.altaprojects.net/'
 tech:
   - Drupal
-  - Front End Dev
-  - DB/Search
+  - Photoshop
+  - Illustrator
+  - InDesign
 skills:
   - Content Management Systems
+  - PHP
   - Front End Development
   - UX
   - Design
@@ -16,6 +18,8 @@ skills:
   - SEO
   - Optimization
   - Mapping
+  - Database Management
+  - Javascript
 company: 'Alta Planning'
 showInProjects: false
 ---

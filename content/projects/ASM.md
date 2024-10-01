@@ -4,6 +4,8 @@ title: 'All Service Moving'
 pub: ''
 external: 'https://allservicemoving.com/'
 tech:
+  - Writing
+skills:
   - Copywriting
   - Copyediting
   - Ghostwriting

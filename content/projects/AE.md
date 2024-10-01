@@ -4,17 +4,15 @@ title: 'After Ellen'
 pub: 'https://www.afterellen.com/'
 external: 'https://www.afterellen.com/author/alley-hector'
 tech:
+  - Journalism
   - Writing
-  - Copyditing
-  - Copywriting
-  - Research
-  - SEO
 skills:
   - Writing
   - Copywriting
   - Copyediting
   - SEO
   - Research
+  - Blogging
 company: 'MTV Viacom'
 showInProjects: false
 ---

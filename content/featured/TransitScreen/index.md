@@ -1,18 +1,25 @@
 ---
-date: '3'
+date: '2018-08-01'
 title: 'TransitScreen'
 cover: './transitscreen.png'
 github: 'https://github.com/transitscreen'
 external: 'https://transitscreen.com/'
 tech:
-  - Front-End Dev
   - Node.js
   - Drift customer service
-  - Google Maps API integration
-  - Leaflet map display
-  - Mobility Score API integration
-  - Marketing strategy
+  - Google Maps
+  - Leaflet
+  - CakePHP
+  - Heroku
+  - Azure
+  - AWS
+  - Github
+  - Jira
+  - Typescript
 skills:
+  - Agile/SCRUM
+  - PHP
+  - APIs
   - Javascript
   - React
   - Content Management Systems

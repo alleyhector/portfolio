@@ -5,8 +5,10 @@ github: ''
 pub: ''
 external: 'https://www.outandabout.space/'
 tech:
-  - Travel Writing
+  - Writing
   - Wordpress
+  - Photoshop
+  - Illustrator
 skills:
   - Writing
   - Travel Writing
@@ -16,6 +18,7 @@ skills:
   - Design
   - UX
   - Research
+  - Blogging
 company: ''
 showInProjects: true
 ---

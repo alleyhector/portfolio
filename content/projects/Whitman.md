@@ -7,8 +7,10 @@ tech:
   - Wordpress
   - Visual Composer
   - WP Blog Manager
-  - Design
-  - Front End Dev
+  - Twig
+  - Photoshop
+  - Illustrator
+  - Figma
 skills:
   - Content Management Systems
   - Front End Development
@@ -17,6 +19,7 @@ skills:
   - CSS
   - SEO
   - Optimization
+  - Javascript
 company: ''
 showInProjects: true
 ---

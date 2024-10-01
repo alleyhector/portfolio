@@ -4,11 +4,9 @@ title: 'Press & Marketing'
 pub: ''
 external: 'https://www.madfishdigital.com/'
 tech:
-  - Copywriting
-  - Copyediting
-  - Ghostwriting
-skills:
   - Writing
+skills:
+  - Travel Writing
   - Ghostwriting
   - Copywriting
   - Copyediting

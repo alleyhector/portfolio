@@ -4,10 +4,10 @@ title: 'Arctic Cool'
 github: ''
 external: 'https://arcticcool.com/'
 tech:
-  - Design
   - Wordpress
   - WooCommerce
-  - Front End Dev
+  - Photoshop
+  - Illustrator
 skills:
   - Content Management Systems
   - Front End Development
@@ -20,6 +20,7 @@ skills:
   - eCommerce
   - Marketing
   - Research
+  - Javascript
 company: 'Get Lagos consulting'
 showInProjects: false
 ---

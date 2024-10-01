@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '2018-11-30'
 title: 'Wild Times'
 cover: './into.png'
 publication: 'https://www.intomore.com'
@@ -7,7 +7,8 @@ external: 'https://www.intomore.com/culture/wild-times-8-queer-adventurers-discu
 pubtitle: Into - lgbt magazine from Grindr
 release: November 30, 2018
 tech:
-  - INTO lgbt magazine from Grindr
+  - Journalism
+  - Writing
 skills:
   - Writing
   - Copywriting

@@ -1,18 +1,19 @@
 ---
-date: '2'
+date: '2020-05-01'
 title: 'Travel Portland'
 cover: './travelportland.png'
 github: ''
 external: 'https://travelportland.com/'
 tech:
-  - Content Curation & Migrations
-  - Marketing/Content Strategy
-  - Copywriting
-  - Copyediting
-  - Events Management
-  - Layout & Design
+  - Wordpress
+  - Events Database
+  - Asana
+  - Figma
+  - Google Maps
 skills:
   - Content Management Systems
+  - Content Curation & Migrations
+  - Travel Writing
   - Copyediting
   - Copywriting
   - UX
@@ -24,6 +25,8 @@ skills:
   - eCommerce
   - Marketing
   - Mapping
+  - Blogging
+  - Events Management
 showInProjects: true
 ---
 

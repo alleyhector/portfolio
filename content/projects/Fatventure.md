@@ -4,9 +4,8 @@ title: 'Fatventure Mag'
 pub: 'http://www.fatventuremag.com/'
 external: './work/Fatventure-excerpt.pdf'
 tech:
+  - Journalism
   - Writing
-  - Editing
-  - Research
 skills:
   - Writing
   - Copywriting

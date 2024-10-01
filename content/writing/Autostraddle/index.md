@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2014-12-18'
 title: 'The State of the Lesbian Bar'
 cover: './autostraddle.png'
 publication: 'https://www.autostraddle.com/'
@@ -7,12 +7,16 @@ external: 'https://www.autostraddle.com/the-state-of-the-lesbian-bar-portland-se
 pubtitle: Autostraddle - queer women's website
 release: December 18, 2014
 tech:
-  - AUTOSTRADDLE queer women's website
+  - Journalism
+  - Writing
 skills:
+  - Travel Writing
+  - Tech Writing
   - Writing
   - Copywriting
   - Copyediting
   - SEO
+  - Blogging
 showInProjects: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-date: '4'
+date: '2020-05-01'
 title: 'Medical Teams International'
 cover: './mti.png'
 github: ''
@@ -8,8 +8,6 @@ tech:
   - Wordpress
   - Timber
   - Twig
-  - Front-End Dev
-  - Optimization
 skills:
   - PHP
   - CSS
@@ -17,6 +15,7 @@ skills:
   - Front End Development
   - SEO
   - Optimization
+company: 'Get Lagos Consulting'
 showInProjects: false
 ---
 

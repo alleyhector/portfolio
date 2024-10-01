@@ -4,10 +4,11 @@ title: 'Pacific Scale'
 github: ''
 external: 'https://pacificscale.com/'
 tech:
-  - Design
+  - Photoshop
   - Wordpress
   - WooCommerce
-  - Front End Dev
+  - Photoshop
+  - Illustrator
 skills:
   - Design
   - Content Management Systems
@@ -16,6 +17,7 @@ skills:
   - CSS
   - SEO
   - Optimization
+  - Javascript
 company: 'Get Lagos consulting'
 showInProjects: false
 ---
