@@ -55,14 +55,11 @@ const TechTemplate = ({ pageContext, data, location }) => {
       <StyledTagsContainer>
         <span className="breadcrumb">
           <span className="arrow">&larr;</span>
-          <Link to="/pensieve">All memories</Link>
+          <Link to="/tech">View all technologies</Link>
         </span>
 
         <h1>
           <span>#{tech}</span>
-          <span>
-            <Link to="/skills">View all proficiencies</Link>
-          </span>
         </h1>
 
         <ul className="fancy-list">
@@ -74,18 +71,11 @@ const TechTemplate = ({ pageContext, data, location }) => {
                   <Link to={slug}>{title}</Link>
                 </h2>
                 <p className="subtitle">
-                  <time>
-                    {new Date(date).toLocaleDateString('en-US', {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric',
-                    })}
-                  </time>
-                  <span>&nbsp;&mdash;&nbsp;</span>
+                  <time>{`${new Date(date).getFullYear()}`}</time>
                   {tech &&
                     tech.length > 0 &&
                     tech.map((tech, i) => (
-                      <Link key={i} to={`/skills/${kebabCase(tech)}/`} className="tech">
+                      <Link key={i} to={`/tech/${kebabCase(tech)}/`} className="tech">
                         <br />#{tech}
                       </Link>
                     ))}
@@ -138,6 +128,7 @@ export const pageQuery = graphql`
             date
             slug
             tech
+            skills
           }
         }
       }

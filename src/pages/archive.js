@@ -96,6 +96,7 @@ const StyledTable = styled.table`
 
 const ArchivePage = ({ location, data }) => {
   const projects = data.allMarkdownRemark.edges;
+  console.log(projects);
 
   const revealTitle = useRef(null);
   const revealTable = useRef(null);
@@ -116,7 +117,9 @@ const ArchivePage = ({ location, data }) => {
       <StyledMainContainer>
         <header ref={revealTitle}>
           <h1 className="big-title">Archive</h1>
-          <p className="subtitle">A big list of things I’ve worked on</p>
+          <p className="subtitle">
+            A big, but still not comprehensive, list of things I’ve worked on
+          </p>
         </header>
 
         <StyledTableContainer ref={revealTable}>
@@ -126,15 +129,27 @@ const ArchivePage = ({ location, data }) => {
                 <th>Year</th>
                 <th>Title</th>
                 <th className="hide-on-mobile">Created at</th>
-                <th className="hide-on-mobile">Made using</th>
+                <th className="hide-on-mobile">Tech Stack</th>
+                <th className="hide-on-mobile">Skills</th>
                 <th>Link</th>
               </tr>
             </thead>
             <tbody>
               {projects.length > 0 &&
                 projects.map(({ node }, i) => {
-                  const { date, github, pub, external, ios, android, title, tech, company } =
-                    node.frontmatter;
+                  const {
+                    date,
+                    github,
+                    pub,
+                    external,
+                    ios,
+                    android,
+                    title,
+                    tech,
+                    company,
+                    pubtitle,
+                    skills,
+                  } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
                       <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
@@ -142,12 +157,29 @@ const ArchivePage = ({ location, data }) => {
                       <td className="title">{title}</td>
 
                       <td className="company hide-on-mobile">
-                        {company ? <span>{company}</span> : <span>—</span>}
+                        {company ? (
+                          <span>{company}</span>
+                        ) : pubtitle ? (
+                          <span>{pubtitle}</span>
+                        ) : (
+                          <span>—</span>
+                        )}
                       </td>
 
                       <td className="tech hide-on-mobile">
                         {tech.length > 0 &&
                           tech.map((item, i) => (
+                            <span key={i}>
+                              {item}
+                              {''}
+                              {i !== tech.length - 1 && <span className="separator">&middot;</span>}
+                            </span>
+                          ))}
+                      </td>
+
+                      <td className="tech hide-on-mobile">
+                        {skills.length > 0 &&
+                          skills.map((item, i) => (
                             <span key={i}>
                               {item}
                               {''}
@@ -225,7 +257,7 @@ export default ArchivePage;
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/projects/|/featured/|/writing/" } }
+      filter: { fileAbsolutePath: { regex: "/featured/|/writing/|/projects/" } }
       sort: { frontmatter: { date: DESC } }
     ) {
       edges {
@@ -234,12 +266,14 @@ export const pageQuery = graphql`
             date
             title
             tech
+            skills
             github
             external
             ios
             android
             company
             pub
+            pubtitle
           }
           html
         }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'gatsby';
+import kebabCase from 'lodash/kebabCase';
 import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import sr from '@utils/sr';
@@ -155,7 +156,7 @@ const Projects = ({ data }) => {
           {projectsToShow &&
             projectsToShow.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { pub, github, external, title, tech } = frontmatter;
+              const { pub, github, external, title, skills } = frontmatter;
               return (
                 <CSSTransition
                   key={i}
@@ -209,10 +210,12 @@ const Projects = ({ data }) => {
                         <StyledProjectDescription dangerouslySetInnerHTML={{ __html: html }} />
                       </header>
                       <footer>
-                        {tech && (
+                        {skills && (
                           <StyledTechList>
-                            {tech.map((tech, i) => (
-                              <li key={i}>{tech}</li>
+                            {skills.map((skill, i) => (
+                              <li key={i}>
+                                <Link to={`/skills/${kebabCase(skill)}/`}>{skill}</Link>
+                              </li>
                             ))}
                           </StyledTechList>
                         )}
