@@ -30,129 +30,143 @@ IndexPage.propTypes = {
 
 export default IndexPage;
 
-export const pageQuery = graphql`{
-  hero: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/hero/"}}) {
-    edges {
-      node {
-        frontmatter {
-          title
-          name
-          subtitle
-          buttonText
+export const pageQuery = graphql`
+  {
+    hero: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/hero/" } }) {
+      edges {
+        node {
+          frontmatter {
+            title
+            name
+            subtitle
+            buttonText
+          }
+          html
         }
-        html
       }
     }
-  }
-  about: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/about/"}}) {
-    edges {
-      node {
-        frontmatter {
-          title
-          avatar {
-            childImageSharp {
-              fluid(maxWidth: 700, quality: 90, traceSVG: {color: "#64ffda"}) {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+    about: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/about/" } }) {
+      edges {
+        node {
+          frontmatter {
+            title
+            avatar {
+              childImageSharp {
+                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
               }
             }
+            attrs
           }
-          skills
+          html
         }
-        html
       }
     }
-  }
-  jobs: allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "/jobs/"}}
-    sort: {frontmatter: {date: DESC}}
-  ) {
-    edges {
-      node {
-        frontmatter {
-          title
-          company
-          location
-          range
-          url
+    jobs: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/jobs/" } }
+      sort: { frontmatter: { date: DESC } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            company
+            location
+            range
+            url
+          }
+          html
         }
-        html
       }
     }
-  }
-  featured: allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "/featured/"}, frontmatter: {showInProjects: {ne: false}}}
-    sort: {frontmatter: {date: ASC}}
-  ) {
-    edges {
-      node {
-        frontmatter {
-          title
-          cover {
-            childImageSharp {
-              fluid(maxWidth: 700, quality: 90, traceSVG: {color: "#7AA34B"}) {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+    featured: allMarkdownRemark(
+      filter: {
+        fileAbsolutePath: { regex: "/featured/" }
+        frontmatter: { showInProjects: { ne: false } }
+      }
+      sort: { frontmatter: { date: DESC } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#7AA34B" }) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
               }
             }
+            tech
+            github
+            external
+            skills
           }
-          tech
-          github
-          external
+          html
         }
-        html
       }
     }
-  }
-  writing: allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "/writing/"}, frontmatter: {showInProjects: {ne: false}}}
-    sort: {frontmatter: {date: ASC}}
-  ) {
-    edges {
-      node {
-        frontmatter {
-          title
-          cover {
-            childImageSharp {
-              fluid(maxWidth: 700, quality: 90, traceSVG: {color: "#7AA34B"}) {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+    writing: allMarkdownRemark(
+      filter: {
+        fileAbsolutePath: { regex: "/writing/" }
+        frontmatter: { showInProjects: { ne: false } }
+      }
+      sort: { frontmatter: { date: DESC } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#7AA34B" }) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
               }
             }
+            tech
+            publication
+            external
+            pubtitle
+            release
+            skills
           }
-          tech
-          publication
-          external
-          pubtitle
-          release
+          html
         }
-        html
+      }
+    }
+    projects: allMarkdownRemark(
+      filter: {
+        fileAbsolutePath: { regex: "/projects/" }
+        frontmatter: { showInProjects: { ne: false } }
+      }
+      sort: { frontmatter: { date: DESC } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            tech
+            github
+            external
+            pub
+            skills
+          }
+          html
+        }
+      }
+    }
+    contact: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/contact/" } }) {
+      edges {
+        node {
+          frontmatter {
+            title
+            buttonText
+          }
+          html
+        }
       }
     }
   }
-  projects: allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "/projects/"}, frontmatter: {showInProjects: {ne: false}}}
-    sort: {frontmatter: {date: DESC}}
-  ) {
-    edges {
-      node {
-        frontmatter {
-          title
-          tech
-          github
-          external
-          pub
-        }
-        html
-      }
-    }
-  }
-  contact: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/contact/"}}) {
-    edges {
-      node {
-        frontmatter {
-          title
-          buttonText
-        }
-        html
-      }
-    }
-  }
-}`;
+`;

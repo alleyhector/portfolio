@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
+import { Link } from 'gatsby';
+import kebabCase from 'lodash/kebabCase';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
 import { FormattedIcon } from '@components/icons';
@@ -225,7 +227,7 @@ const Featured = ({ data }) => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, title, tech, skills, github, cover } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -248,10 +250,22 @@ const Featured = ({ data }) => {
                   {tech && (
                     <StyledTechList>
                       {tech.map((tech, i) => (
-                        <li key={i}>{tech}</li>
+                        <li key={i}>
+                          <Link to={`/tech/${kebabCase(tech)}/`}>{tech}</Link>
+                        </li>
                       ))}
                     </StyledTechList>
                   )}
+                  {skills && (
+                    <StyledTechList>
+                      {skills.map((skill, i) => (
+                        <li key={i}>
+                          <Link to={`/skills/${kebabCase(skill)}/`}>{skill}</Link>
+                        </li>
+                      ))}
+                    </StyledTechList>
+                  )}
+
                   <StyledLinkWrapper>
                     {github && (
                       <a

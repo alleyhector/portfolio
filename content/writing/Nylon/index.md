@@ -1,14 +1,20 @@
 ---
-date: '1'
+date: '2020-01-28'
 title: 'Astrology for Real Relationships'
 cover: './nylon.png'
 publication: 'https://www.nylon.com/'
 external: 'https://www.nylon.com/astrologer-jessica-lanyadoo-book-interview'
 pubtitle: 'Nylon Magazine'
-release: 'February 2020'
+release: 'January 28, 2020'
 tech:
-  - NYLON magazine
-  - February 2020
+  - Journalism
+  - Writing
+skills:
+  - Writing
+  - Tech Writing
+  - Copywriting
+  - Copyediting
+  - SEO
 showInProjects: true
 ---
 

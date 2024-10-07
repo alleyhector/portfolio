@@ -4,9 +4,14 @@ title: 'Press & Marketing'
 pub: ''
 external: 'https://www.madfishdigital.com/'
 tech:
+  - Writing
+skills:
+  - Travel Writing
+  - Ghostwriting
   - Copywriting
   - Copyediting
-  - Ghostwriting
+  - SEO
+  - Research
 company: 'Mad Fish'
 showInProjects: true
 ---

@@ -1,13 +1,24 @@
 ---
-date: '5'
+date: '2019-08-01'
 title: 'Salvage Works'
 cover: './salvageworks.png'
 github: ''
 external: 'https://www.salvageworkspdx.com/'
 tech:
-  - Design
-  - Front-End Dev
   - Shopify
+  - Twig
+  - Photoshop
+  - Illustrator
+  - Figma
+skills:
+  - Content Management Systems
+  - Front End Development
+  - Design
+  - CSS
+  - SEO
+  - Optimization
+  - eCommerce
+  - Javascript
 showInProjects: false
 ---
 
