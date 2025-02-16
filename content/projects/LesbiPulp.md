@@ -4,9 +4,12 @@ title: 'Sticking it to the Man'
 pub: 'https://www.pmpress.org/index.php?l=product_detail&p=1012'
 external: 'https://www.academia.edu/6544839/The_Odd_Girls_Journey_Out_of_the_Shadows_Lesbi-Pulp_Novels_and_the_Creation_of_a_Lesbian_Discourse'
 tech:
+  - Writing
+skills:
+  - Writing
   - Academic Writing
-  - Editing
-  - Research
+  - Copywriting
+  - Copyediting
 company: 'PM Press'
 showInProjects: true
 ---

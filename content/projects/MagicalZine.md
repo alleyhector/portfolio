@@ -4,9 +4,14 @@ title: 'Never So Unconcerned'
 pub: 'https://literarykitchen.com/'
 external: './work/MagicalZine-excerpt.pdf'
 tech:
-  - Fiction Writing
+  - Writing
   - Tarot
-company: 'Ariel Gore\`s Literary Kitchen'
+skills:
+  - Writing
+  - Fiction Writing
+  - Copywriting
+  - Copyediting
+company: "Ariel Gore's Literary Kitchen"
 showInProjects: false
 ---
 

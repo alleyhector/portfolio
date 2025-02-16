@@ -4,9 +4,14 @@ title: 'Park City Restaurant Association'
 pub: ''
 external: 'https://parkcityrestaurants.com/'
 tech:
+  - Writing
+skills:
+  - Travel Writing
   - Copywriting
   - Copyediting
   - Ghostwriting
+  - SEO
+  - Blogging
 company: 'Mad Fish'
 showInProjects: false
 ---

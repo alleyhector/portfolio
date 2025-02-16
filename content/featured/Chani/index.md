@@ -1,18 +1,49 @@
 ---
-date: '0'
+date: '2024-02-01'
 title: 'CHANI'
 cover: './chani.png'
 github: 'https://github.com/chani-nicholas-inc'
 external: 'https://www.chaninicholas.com/'
 tech:
-  - UX/Engineering Management
   - Next.js
   - Typescript
-  - React/Native
+  - Node.js
+  - Tailwind
+  - Wordpress
+  - Shopify
+  - React Native
+  - Appstore
+  - Google Play Store
   - Contentful
-  - Front-End Dev
+  - AWS
+  - Heroku
+  - Vercel
+  - Github
+  - Figma
+  - Photoshop
+  - Illustrator
+  - Audition
+  - Google Maps
+skills:
+  - Engineering Management
+  - Agile/SCRUM
+  - Javascript
+  - APIs
+  - Content Management Systems
+  - Front End Development
   - Audio/Video Production
-  - Copy Editing
+  - Copyediting
+  - UX
+  - Strategy
+  - Design
+  - CSS
+  - SEO
+  - Optimization
+  - eCommerce
+  - Marketing
+  - Research
+  - Mobile Development
+  - Version Control
 showInProjects: true
 ---
 

@@ -1,16 +1,28 @@
 ---
-date: '1'
+date: '2021-03-01'
 title: 'Folx Health'
 cover: './folx.png'
 github: 'https://github.com/folxhealth/'
 external: 'https://www.folxhealth.com/'
 tech:
   - Gatsby.js
-  - Typescript
-  - React
   - Butter CMS
-  - Front-End Dev
+  - Typescript
+  - Github
+  - Twig
+  - Storyblok
+  - AWS
+  - Netlify
+skills:
+  - Javascript
+  - React
+  - Content Management Systems
+  - Front End Development
+  - Copyediting
+  - UX
   - Strategy
+  - Design
+  - Version Control
 showInProjects: true
 ---
 

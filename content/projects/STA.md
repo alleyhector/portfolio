@@ -5,9 +5,20 @@ github: ''
 external: 'https://sparetheairyouth.org/'
 tech:
   - Drupal
+  - Photoshop
+  - Illustrator
+  - Google Maps
+skills:
+  - Content Management Systems
+  - Front End Development
+  - UX
   - Design
-  - Front End Dev
-  - DB/Search
+  - CSS
+  - SEO
+  - Optimization
+  - Mapping
+  - Database Management
+  - Javascript
 company: 'Alta Planning'
 showInProjects: false
 ---

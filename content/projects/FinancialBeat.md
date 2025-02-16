@@ -1,13 +1,29 @@
 ---
-date: '2020-02-01'
+date: '2019-12-01'
 title: 'The Financial Beat'
 github: ''
 pub: ''
 external: 'https://financialbeatllc.com/'
 tech:
   - Wordpress
-  - ClientPortal
-  - Front End Dev
+  - Client Portal
+  - Photoshop
+  - Illustrator
+  - Figma
+skills:
+  - PHP
+  - Content Management Systems
+  - Front End Development
+  - Copyediting
+  - UX
+  - Strategy
+  - Design
+  - CSS
+  - SEO
+  - Optimization
+  - eCommerce
+  - Marketing
+  - Research
 company: ''
 showInProjects: true
 ---

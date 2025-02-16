@@ -4,10 +4,14 @@ title: 'Instart'
 pub: ''
 external: 'https://www.instart.com/'
 tech:
+  - Writing
+skills:
+  - Tech Writing
   - Copywriting
   - Copyediting
   - Ghostwriting
-  - Infographic writing
+  - Infographic Writing
+  - SEO
 company: 'Mad Fish'
 showInProjects: false
 ---

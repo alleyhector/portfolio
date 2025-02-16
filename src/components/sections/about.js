@@ -114,7 +114,7 @@ const StyledAvatarLink = styled.a`
 
 const About = ({ data }) => {
   const { frontmatter, html } = data[0].node;
-  const { title, skills, avatar } = frontmatter;
+  const { title, attrs, avatar } = frontmatter;
   const revealContainer = useRef(null);
   useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
 
@@ -125,7 +125,7 @@ const About = ({ data }) => {
         <StyledContent>
           <div dangerouslySetInnerHTML={{ __html: html }} />
           <SkillsContainer>
-            {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
+            {attrs && attrs.map((attr, i) => <Skill key={i}>{attr}</Skill>)}
           </SkillsContainer>
         </StyledContent>
         <StyledPic>

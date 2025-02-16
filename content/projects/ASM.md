@@ -4,10 +4,13 @@ title: 'All Service Moving'
 pub: ''
 external: 'https://allservicemoving.com/'
 tech:
+  - Writing
+skills:
   - Copywriting
   - Copyediting
   - Ghostwriting
   - Infographic writing
+  - SEO
 company: 'Mad Fish'
 showInProjects: false
 ---
