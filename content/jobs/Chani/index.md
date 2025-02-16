@@ -17,5 +17,5 @@ url: 'https://chaninicholas.com'
 - Lead initiatives including:
   - Android and web applications
   - Custom astrological calculation API
-- Liaised with marketing, production, and content to ensure we were consistency in brand and copy
+- Liaised with marketing, production, and content to ensure consistency in brand and copy
 - Interfaced with outside vendors
