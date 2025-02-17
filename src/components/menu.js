@@ -109,7 +109,7 @@ const Menu = ({ $menuOpen, toggleMenu }) => {
               ))}
           </NavList>
           <ResumeLink
-            href="/resume2022-redact.pdf"
+            href="/resume2025-redact.pdf"
             target="_blank"
             rel="nofollow noopener noreferrer">
             Resume
