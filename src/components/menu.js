@@ -16,8 +16,8 @@ const StyledContainer = styled.div`
   z-index: 10;
   outline: 0;
   transition: ${theme.transition};
-  transform: translateX(${props => (props.menuOpen ? 0 : 100)}vw);
-  visibility: ${props => (props.menuOpen ? 'visible' : 'hidden')};
+  transform: translateX(${props => (props.$menuOpen ? 0 : 100)}vw);
+  visibility: ${props => (props.$menuOpen ? 'visible' : 'hidden')};
   display: none;
   ${media.tablet`display: block;`};
 `;
@@ -81,7 +81,7 @@ const ResumeLink = styled.a`
   width: max-content;
 `;
 
-const Menu = ({ menuOpen, toggleMenu }) => {
+const Menu = ({ $menuOpen, toggleMenu }) => {
   const handleMenuClick = e => {
     const target = e.target;
     const isLink = target.hasAttribute('href');
@@ -94,10 +94,10 @@ const Menu = ({ menuOpen, toggleMenu }) => {
 
   return (
     <StyledContainer
-      menuOpen={menuOpen}
+      $menuOpen={$menuOpen}
       onClick={handleMenuClick}
-      aria-hidden={!menuOpen}
-      tabIndex={menuOpen ? 1 : -1}>
+      aria-hidden={!$menuOpen}
+      tabIndex={$menuOpen ? 1 : -1}>
       <Sidebar>
         <NavLinks>
           <NavList>
@@ -121,7 +121,7 @@ const Menu = ({ menuOpen, toggleMenu }) => {
 };
 
 Menu.propTypes = {
-  menuOpen: PropTypes.bool.isRequired,
+  $menuOpen: PropTypes.bool.isRequired,
   toggleMenu: PropTypes.func.isRequired,
 };
 

@@ -95,10 +95,10 @@ const StyledHamburgerInner = styled.div`
   right: 0;
   transition-duration: 0.22s;
   transition-property: transform;
-  transition-delay: ${props => (props.menuOpen ? `0.12s` : `0s`)};
-  transform: rotate(${props => (props.menuOpen ? `225deg` : `0deg`)});
+  transition-delay: ${props => (props.$menuOpen ? `0.12s` : `0s`)};
+  transform: rotate(${props => (props.$menuOpen ? `225deg` : `0deg`)});
   transition-timing-function: cubic-bezier(
-    ${props => (props.menuOpen ? `0.215, 0.61, 0.355, 1` : `0.55, 0.055, 0.675, 0.19`)}
+    ${props => (props.$menuOpen ? `0.215, 0.61, 0.355, 1` : `0.55, 0.055, 0.675, 0.19`)}
   );
   &:before,
   &:after {
@@ -116,16 +116,16 @@ const StyledHamburgerInner = styled.div`
     border-radius: 4px;
   }
   &:before {
-    width: ${props => (props.menuOpen ? `100%` : `120%`)};
-    top: ${props => (props.menuOpen ? `0` : `-10px`)};
-    opacity: ${props => (props.menuOpen ? 0 : 1)};
-    transition: ${props => (props.menuOpen ? theme.hamBeforeActive : theme.hamBefore)};
+    width: ${props => (props.$menuOpen ? `100%` : `120%`)};
+    top: ${props => (props.$menuOpen ? `0` : `-10px`)};
+    opacity: ${props => (props.$menuOpen ? 0 : 1)};
+    transition: ${props => (props.$menuOpen ? theme.hamBeforeActive : theme.hamBefore)};
   }
   &:after {
-    width: ${props => (props.menuOpen ? `100%` : `80%`)};
-    bottom: ${props => (props.menuOpen ? `0` : `-10px`)};
-    transform: rotate(${props => (props.menuOpen ? `-90deg` : `0`)});
-    transition: ${props => (props.menuOpen ? theme.hamAfterActive : theme.hamAfter)};
+    width: ${props => (props.$menuOpen ? `100%` : `80%`)};
+    bottom: ${props => (props.$menuOpen ? `0` : `-10px`)};
+    transform: rotate(${props => (props.$menuOpen ? `-90deg` : `0`)});
+    transition: ${props => (props.$menuOpen ? theme.hamAfterActive : theme.hamAfter)};
   }
 `;
 const StyledLink = styled.div`
@@ -165,7 +165,7 @@ const DELTA = 5;
 class Nav extends Component {
   state = {
     isMounted: !this.props.isHome,
-    menuOpen: false,
+    $menuOpen: false,
     scrollDirection: 'none',
     lastScrollTop: 0,
   };
@@ -188,14 +188,14 @@ class Nav extends Component {
     window.removeEventListener('keydown', e => this.handleKeydown(e));
   }
 
-  toggleMenu = () => this.setState({ menuOpen: !this.state.menuOpen });
+  toggleMenu = () => this.setState({ $menuOpen: !this.state.$menuOpen });
 
   handleScroll = () => {
-    const { isMounted, menuOpen, scrollDirection, lastScrollTop } = this.state;
+    const { isMounted, $menuOpen, scrollDirection, lastScrollTop } = this.state;
     const fromTop = window.scrollY;
 
     // Make sure they scroll more than DELTA
-    if (!isMounted || Math.abs(lastScrollTop - fromTop) <= DELTA || menuOpen) {
+    if (!isMounted || Math.abs(lastScrollTop - fromTop) <= DELTA || $menuOpen) {
       return;
     }
 
@@ -215,13 +215,13 @@ class Nav extends Component {
   };
 
   handleResize = () => {
-    if (window.innerWidth > 768 && this.state.menuOpen) {
+    if (window.innerWidth > 768 && this.state.$menuOpen) {
       this.toggleMenu();
     }
   };
 
   handleKeydown = e => {
-    if (!this.state.menuOpen) {
+    if (!this.state.$menuOpen) {
       return;
     }
 
@@ -231,7 +231,7 @@ class Nav extends Component {
   };
 
   render() {
-    const { isMounted, menuOpen, scrollDirection } = this.state;
+    const { isMounted, $menuOpen, scrollDirection } = this.state;
     const { isHome } = this.props;
     const timeout = isHome ? loaderDelay : 0;
     const fadeClass = isHome ? 'fade' : '';
@@ -240,7 +240,7 @@ class Nav extends Component {
     return (
       <StyledContainer scrollDirection={scrollDirection}>
         <Helmet>
-          <body className={menuOpen ? 'blur' : ''} />
+          <body className={$menuOpen ? 'blur' : ''} />
         </Helmet>
         <StyledNav>
           <TransitionGroup component={null}>
@@ -266,7 +266,7 @@ class Nav extends Component {
               <CSSTransition classNames={fadeClass} timeout={timeout}>
                 <StyledHamburger onClick={this.toggleMenu}>
                   <StyledHamburgerBox>
-                    <StyledHamburgerInner menuOpen={menuOpen} />
+                    <StyledHamburgerInner $menuOpen={$menuOpen} />
                   </StyledHamburgerBox>
                 </StyledHamburger>
               </CSSTransition>
@@ -307,7 +307,7 @@ class Nav extends Component {
           </StyledLink>
         </StyledNav>
 
-        <Menu menuOpen={menuOpen} toggleMenu={this.toggleMenu} />
+        <Menu $menuOpen={$menuOpen} toggleMenu={this.toggleMenu} />
       </StyledContainer>
     );
   }
