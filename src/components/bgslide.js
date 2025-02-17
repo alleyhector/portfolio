@@ -60,12 +60,12 @@ const FullBackground = ({ children }) => {
   );
 
   const images = [pompidou, thailand, norte, glacier, amsterpool, sagrada, batllo, wine];
-  const backgroundFluidImages = images.map(getSrc);
+  const backgroundImages = images.map(getSrc);
 
   return (
     <BackgroundGradient>
       {children}
-      <BackgroundSlider images={backgroundFluidImages} duration={5} transition={3} />
+      <BackgroundSlider images={backgroundImages} duration={5} transition={3} />
     </BackgroundGradient>
   );
 };
