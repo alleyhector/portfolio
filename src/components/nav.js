@@ -23,11 +23,11 @@ const StyledContainer = styled.header`
   pointer-events: auto !important;
   user-select: auto !important;
   width: 100%;
-  height: ${props => (props.scrollDirection === 'none' ? theme.navHeight : theme.navScrollHeight)};
+  height: ${props => (props.$scrollDirection === 'none' ? theme.navHeight : theme.navScrollHeight)};
   box-shadow: ${props =>
-    props.scrollDirection === 'up' ? `0 10px 30px -10px ${colors.shadowBg}` : 'none'};
+    props.$scrollDirection === 'up' ? `0 10px 30px -10px ${colors.shadowBg}` : 'none'};
   transform: translateY(
-    ${props => (props.scrollDirection === 'down' ? `-${theme.navScrollHeight}` : '0px')}
+    ${props => (props.$scrollDirection === 'down' ? `-${theme.navScrollHeight}` : '0px')}
   );
   ${media.desktop`padding: 0 40px;`};
   ${media.tablet`padding: 0 25px;`};
@@ -166,7 +166,7 @@ class Nav extends Component {
   state = {
     isMounted: !this.props.isHome,
     $menuOpen: false,
-    scrollDirection: 'none',
+    $scrollDirection: 'none',
     lastScrollTop: 0,
   };
 
@@ -191,7 +191,7 @@ class Nav extends Component {
   toggleMenu = () => this.setState({ $menuOpen: !this.state.$menuOpen });
 
   handleScroll = () => {
-    const { isMounted, $menuOpen, scrollDirection, lastScrollTop } = this.state;
+    const { isMounted, $menuOpen, $scrollDirection, lastScrollTop } = this.state;
     const fromTop = window.scrollY;
 
     // Make sure they scroll more than DELTA
@@ -200,14 +200,14 @@ class Nav extends Component {
     }
 
     if (fromTop < DELTA) {
-      this.setState({ scrollDirection: 'none' });
+      this.setState({ $scrollDirection: 'none' });
     } else if (fromTop > lastScrollTop && fromTop > navHeight) {
-      if (scrollDirection !== 'down') {
-        this.setState({ scrollDirection: 'down' });
+      if ($scrollDirection !== 'down') {
+        this.setState({ $scrollDirection: 'down' });
       }
     } else if (fromTop + window.innerHeight < document.body.scrollHeight) {
-      if (scrollDirection !== 'up') {
-        this.setState({ scrollDirection: 'up' });
+      if ($scrollDirection !== 'up') {
+        this.setState({ $scrollDirection: 'up' });
       }
     }
 
@@ -231,14 +231,14 @@ class Nav extends Component {
   };
 
   render() {
-    const { isMounted, $menuOpen, scrollDirection } = this.state;
+    const { isMounted, $menuOpen, $scrollDirection } = this.state;
     const { isHome } = this.props;
     const timeout = isHome ? loaderDelay : 0;
     const fadeClass = isHome ? 'fade' : '';
     const fadeDownClass = isHome ? 'fadedown' : '';
 
     return (
-      <StyledContainer scrollDirection={scrollDirection}>
+      <StyledContainer $scrollDirection={$scrollDirection}>
         <Helmet>
           <body className={$menuOpen ? 'blur' : ''} />
         </Helmet>
