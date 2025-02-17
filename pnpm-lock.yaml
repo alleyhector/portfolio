@@ -84,8 +84,8 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1
       react-background-slider:
-        specifier: 4.0.0-next.3
-        version: 4.0.0-next.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^4.0.0
+        version: 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-dom:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
@@ -5420,8 +5420,8 @@ packages:
     resolution: {integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==}
     hasBin: true
 
-  react-background-slider@4.0.0-next.3:
-    resolution: {integrity: sha512-TGpg8DxJHY+WCorbuV0ea6XBMTnU6LcXX1+4ucfiVzh4/6g4SVZlXeO53udG5OTDQG9QvY7RteYUdxYLunqb6g==}
+  react-background-slider@4.0.0:
+    resolution: {integrity: sha512-osEGObui0khVqRdvhOg6nB8wA/hq2wywkAlcilC3hbUvXJTUSjVRn5WtptOmE63/TP8d3kIIsCBIA460Pflfrg==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -13389,7 +13389,7 @@ snapshots:
       minimist: 1.2.8
       strip-json-comments: 2.0.1
 
-  react-background-slider@4.0.0-next.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-background-slider@4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       css-vendor: 2.0.8
       prop-types: 15.8.1
