@@ -61,7 +61,6 @@ const FullBackground = ({ children }) => {
 
   const images = [pompidou, thailand, norte, glacier, amsterpool, sagrada, batllo, wine];
   const backgroundFluidImages = images.map(getSrc);
-  console.log('backgroundFluidImages', backgroundFluidImages);
 
   return (
     <BackgroundGradient>
