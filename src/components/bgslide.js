@@ -10,67 +10,68 @@ const BackgroundGradient = styled.div`
 `;
 
 const FullBackground = ({ children }) => {
-  const { pompidou, thailand, norte, amsterpool, batllo, glacier, sagrada, wine } =
-    useStaticQuery(graphql`
-    query {
-      pompidou: file(relativePath: { eq: "bg/pompidou.jpg" }) {
-        childImageSharp {
-          fluid(quality: 90, maxWidth: 3024) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
+  const { pompidou, thailand, norte, amsterpool, batllo, glacier, sagrada, wine } = useStaticQuery(
+    graphql`
+      query {
+        pompidou: file(relativePath: { eq: "bg/pompidou.jpg" }) {
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 3024) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+        thailand: file(relativePath: { eq: "bg/thailand.jpg" }) {
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 3024) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+        norte: file(relativePath: { eq: "bg/norte.jpg" }) {
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 3024) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+        glacier: file(relativePath: { eq: "bg/glacier.jpg" }) {
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 3024) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+        amsterpool: file(relativePath: { eq: "bg/amsterpool.jpg" }) {
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 3024) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+        sagrada: file(relativePath: { eq: "bg/sagrada.jpg" }) {
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 3024) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+        batllo: file(relativePath: { eq: "bg/batllo.jpg" }) {
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 3024) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+        wine: file(relativePath: { eq: "bg/wine.jpg" }) {
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 3024) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
           }
         }
       }
-      thailand: file(relativePath: { eq: "bg/thailand.jpg" }) {
-        childImageSharp {
-          fluid(quality: 90, maxWidth: 3024) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
-          }
-        }
-      }
-      norte: file(relativePath: { eq: "bg/norte.jpg" }) {
-        childImageSharp {
-          fluid(quality: 90, maxWidth: 3024) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
-          }
-        }
-      }
-      glacier: file(relativePath: { eq: "bg/glacier.jpg" }) {
-        childImageSharp {
-          fluid(quality: 90, maxWidth: 3024) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
-          }
-        }
-      }
-      amsterpool: file(relativePath: { eq: "bg/amsterpool.jpg" }) {
-        childImageSharp {
-          fluid(quality: 90, maxWidth: 3024) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
-          }
-        }
-      }
-      sagrada: file(relativePath: { eq: "bg/sagrada.jpg" }) {
-        childImageSharp {
-          fluid(quality: 90, maxWidth: 3024) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
-          }
-        }
-      }
-      batllo: file(relativePath: { eq: "bg/batllo.jpg" }) {
-        childImageSharp {
-          fluid(quality: 90, maxWidth: 3024) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
-          }
-        }
-      }
-      wine: file(relativePath: { eq: "bg/wine.jpg" }) {
-        childImageSharp {
-          fluid(quality: 90, maxWidth: 3024) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
-          }
-        }
-      }
-    }
-  `);
+    `,
+  );
 
   const backgroundFluidImages = [
     pompidou.childImageSharp.fluid.src,
