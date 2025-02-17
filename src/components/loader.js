@@ -23,7 +23,7 @@ const StyledLogo = styled.div`
   width: max-content;
   max-width: 100px;
   transition: ${theme.transition};
-  opacity: ${props => (props.isMounted ? 1 : 0)};
+  opacity: ${props => (props.$isMounted ? 1 : 0)};
   svg {
     width: 100%;
     height: 100%;
@@ -74,10 +74,10 @@ const Loader = ({ finishLoading }) => {
       });
   };
 
-  const [isMounted, setIsMounted] = useState(false);
+  const [$isMounted, set$isMounted] = useState(false);
 
   useEffect(() => {
-    const timeout = setTimeout(() => setIsMounted(true), 10);
+    const timeout = setTimeout(() => set$isMounted(true), 10);
     animate();
     return () => clearTimeout(timeout);
   }, []);
@@ -86,7 +86,7 @@ const Loader = ({ finishLoading }) => {
     <StyledContainer className="loader">
       <Helmet bodyAttributes={{ class: `hidden` }} />
 
-      <StyledLogo isMounted={isMounted}>
+      <StyledLogo $isMounted={$isMounted}>
         <IconLoader />
       </StyledLogo>
     </StyledContainer>

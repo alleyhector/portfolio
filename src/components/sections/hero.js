@@ -57,10 +57,10 @@ const StyledEmailLink = styled.a`
 `;
 
 const Hero = ({ data }) => {
-  const [isMounted, setIsMounted] = useState(false);
+  const [$isMounted, set$isMounted] = useState(false);
 
   useEffect(() => {
-    const timeout = setTimeout(() => setIsMounted(true), navDelay);
+    const timeout = setTimeout(() => set$isMounted(true), navDelay);
     return () => clearTimeout(timeout);
   }, []);
 
@@ -92,7 +92,7 @@ const Hero = ({ data }) => {
   return (
     <StyledContainer>
       <TransitionGroup component={null}>
-        {isMounted &&
+        {$isMounted &&
           items.map((item, i) => (
             <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
               {item}

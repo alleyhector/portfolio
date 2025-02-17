@@ -18,20 +18,20 @@ const StyledContainer = styled.div`
 `;
 
 const Side = ({ children, isHome, orientation }) => {
-  const [isMounted, setIsMounted] = useState(!isHome);
+  const [$isMounted, set$isMounted] = useState(!isHome);
 
   useEffect(() => {
     if (!isHome) {
       return;
     }
-    const timeout = setTimeout(() => setIsMounted(true), loaderDelay);
+    const timeout = setTimeout(() => set$isMounted(true), loaderDelay);
     return () => clearTimeout(timeout);
   }, []);
 
   return (
     <StyledContainer orientation={orientation}>
       <TransitionGroup component={null}>
-        {isMounted && (
+        {$isMounted && (
           <CSSTransition classNames={isHome ? 'fade' : ''} timeout={isHome ? loaderDelay : 0}>
             {children}
           </CSSTransition>

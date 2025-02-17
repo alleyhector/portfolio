@@ -164,7 +164,7 @@ const DELTA = 5;
 
 class Nav extends Component {
   state = {
-    isMounted: !this.props.isHome,
+    $isMounted: !this.props.isHome,
     $menuOpen: false,
     $scrollDirection: 'none',
     lastScrollTop: 0,
@@ -173,7 +173,7 @@ class Nav extends Component {
   componentDidMount() {
     setTimeout(
       () =>
-        this.setState({ isMounted: true }, () => {
+        this.setState({ $isMounted: true }, () => {
           window.addEventListener('scroll', () => throttle(this.handleScroll()));
           window.addEventListener('resize', () => throttle(this.handleResize()));
           window.addEventListener('keydown', e => this.handleKeydown(e));
@@ -191,11 +191,11 @@ class Nav extends Component {
   toggleMenu = () => this.setState({ $menuOpen: !this.state.$menuOpen });
 
   handleScroll = () => {
-    const { isMounted, $menuOpen, $scrollDirection, lastScrollTop } = this.state;
+    const { $isMounted, $menuOpen, $scrollDirection, lastScrollTop } = this.state;
     const fromTop = window.scrollY;
 
     // Make sure they scroll more than DELTA
-    if (!isMounted || Math.abs(lastScrollTop - fromTop) <= DELTA || $menuOpen) {
+    if (!$isMounted || Math.abs(lastScrollTop - fromTop) <= DELTA || $menuOpen) {
       return;
     }
 
@@ -231,7 +231,7 @@ class Nav extends Component {
   };
 
   render() {
-    const { isMounted, $menuOpen, $scrollDirection } = this.state;
+    const { $isMounted, $menuOpen, $scrollDirection } = this.state;
     const { isHome } = this.props;
     const timeout = isHome ? loaderDelay : 0;
     const fadeClass = isHome ? 'fade' : '';
@@ -244,7 +244,7 @@ class Nav extends Component {
         </Helmet>
         <StyledNav>
           <TransitionGroup component={null}>
-            {isMounted && (
+            {$isMounted && (
               <CSSTransition classNames={fadeClass} timeout={timeout}>
                 <StyledLogo tabindex="-1">
                   {isHome ? (
@@ -262,7 +262,7 @@ class Nav extends Component {
           </TransitionGroup>
 
           <TransitionGroup component={null}>
-            {isMounted && (
+            {$isMounted && (
               <CSSTransition classNames={fadeClass} timeout={timeout}>
                 <StyledHamburger onClick={this.toggleMenu}>
                   <StyledHamburgerBox>
@@ -276,7 +276,7 @@ class Nav extends Component {
           <StyledLink>
             <StyledList>
               <TransitionGroup component={null}>
-                {isMounted &&
+                {$isMounted &&
                   navLinks &&
                   navLinks.map(({ url, name }, i) => (
                     <CSSTransition key={i} classNames={fadeDownClass} timeout={timeout}>
@@ -291,7 +291,7 @@ class Nav extends Component {
             </StyledList>
 
             <TransitionGroup component={null}>
-              {isMounted && (
+              {$isMounted && (
                 <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                   <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
                     <StyledResumeButton
