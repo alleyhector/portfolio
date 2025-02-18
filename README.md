@@ -74,13 +74,13 @@ Can be found in the `theme.js` file
 
 | Color     | Hex                                                                |
 | --------- | ------------------------------------------------------------------ |
-| Dark BG   | ![#273A52](https://via.placeholder.com/10/273A52?text=+) `#273A52` |
-| BG        | ![#223246](https://via.placeholder.com/10/223246?text=+) `#223246` |
-| Light BG  | ![#2d435f](https://via.placeholder.com/10/2d435f?text=+) `#2D435F` |
-| Main      | ![#cbb496](https://via.placeholder.com/10/cbb496?text=+) `#cbb496` |
-| Secondary | ![#b49369](https://via.placeholder.com/10/b49369?text=+) `#b49369` |
-| Off White | ![#FAF1CF](https://via.placeholder.com/10/FAF1CF?text=+) `#FAF1CF` |
-| Accent    | ![#7AA34B](https://via.placeholder.com/10/7AA34B?text=+) `#7AA34B` |
+| Dark BG   | ![#273A52](https://placehold.co/15x15/273A52/273A52.png) `#273A52` |
+| BG        | ![#223246](https://placehold.co/15x15/223246/223246.png) `#223246` |
+| Light BG  | ![#2d435f](https://placehold.co/15x15/2d435f/2d435f.png) `#2D435F` |
+| Main      | ![#cbb496](https://placehold.co/15x15/cbb496/cbb496.png) `#cbb496` |
+| Secondary | ![#b49369](https://placehold.co/15x15/b49369/b49369.png) `#b49369` |
+| Off White | ![#FAF1CF](https://placehold.co/15x15/FAF1CF/FAF1CF.png) `#FAF1CF` |
+| Accent    | ![#7AA34B](https://placehold.co/15x15/7AA34B/7AA34B.png) `#7AA34B` |
 
 ## 🗞 Licence
 
