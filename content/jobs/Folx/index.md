@@ -3,7 +3,7 @@ date: '2020-11-01'
 title: 'Front End Developer'
 company: 'Folx Health'
 location: 'Remote'
-range: 'October 2020 – present'
+range: 'October 2020 – 2021'
 url: 'https://folxhealth.com/'
 ---
 

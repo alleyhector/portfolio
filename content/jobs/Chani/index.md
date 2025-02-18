@@ -1,9 +1,9 @@
 ---
 date: '2022-01-01'
-title: 'Director of Technology'
+title: 'Director of Product'
 company: 'Chani Nicholas Inc'
 location: 'Los Angeles, CA'
-range: 'March 2021 – present'
+range: 'March 2021 – 2024'
 url: 'https://chaninicholas.com'
 ---
 
