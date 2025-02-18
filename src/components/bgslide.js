@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import BackgroundSlider from 'react-background-slider';
 import { getSrc } from 'gatsby-plugin-image';
 import { theme } from '@styles';
-import { get } from 'lodash';
 const { colors } = theme;
 
 const BackgroundGradient = styled.div`
