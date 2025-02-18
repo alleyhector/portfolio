@@ -19,6 +19,6 @@ skills:
 showInProjects: true
 ---
 
-16 trans singers, songwriters, ax-slingers and more who have transformed the music scene.
+A listicle and profile of 16 trans singers, songwriters, ax-slingers and more who have transformed the music scene.
 
-Other pieces for The Advocate include [10 Famous Gay-Straight Friendships](https://www.advocate.com/people/2018/5/24/10-famous-gay-straight-friendships) & [The 15 Queerest Video Games, Ranked](https://www.advocate.com/arts-entertainment/2018/5/24/15-queerest-video-games-ranked). More journalistic and commercial writing on [Contently](https://alleyhector.contently.com/).
+Other pieces for _The Advocate_ include [10 Famous Gay-Straight Friendships](https://www.advocate.com/people/2018/5/24/10-famous-gay-straight-friendships) & [The 15 Queerest Video Games, Ranked](https://www.advocate.com/arts-entertainment/2018/5/24/15-queerest-video-games-ranked).
