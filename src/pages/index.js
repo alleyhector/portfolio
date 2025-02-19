@@ -52,9 +52,7 @@ export const pageQuery = graphql`
             title
             avatar {
               childImageSharp {
-                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
+                gatsbyImageData(layout: CONSTRAINED, width: 700, quality: 90, placeholder: BLURRED)
               }
             }
             attrs
@@ -93,9 +91,7 @@ export const pageQuery = graphql`
             title
             cover {
               childImageSharp {
-                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#7AA34B" }) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
+                gatsbyImageData(layout: CONSTRAINED, width: 700, quality: 90, placeholder: BLURRED)
               }
             }
             tech
@@ -120,9 +116,7 @@ export const pageQuery = graphql`
             title
             cover {
               childImageSharp {
-                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#7AA34B" }) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
+                gatsbyImageData(layout: CONSTRAINED, width: 700, quality: 90, placeholder: BLURRED)
               }
             }
             tech

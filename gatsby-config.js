@@ -7,6 +7,7 @@ module.exports = {
     description: config.siteDescription,
   },
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
@@ -64,16 +65,6 @@ module.exports = {
             options: {
               target: '_blank',
               rel: 'nofollow noopener noreferrer',
-            },
-          },
-          {
-            // https://www.gatsbyjs.org/packages/gatsby-remark-images
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 700,
-              linkImagesToOriginal: true,
-              quality: 90,
-              tracedSVG: { color: config.colors.accent },
             },
           },
           {

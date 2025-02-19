@@ -25,4 +25,4 @@ company: 'Go Box'
 showInProjects: true
 ---
 
-Jumped in to clean up some design and implementation for Go Box, a company that provides subscriptions for reusable to go boxes so that takeout lovers in Portland and San Francisco can support small business and the environment at the same time. I worked with both their front facing website as well as their iOS app.
+Jumped in to clean up some design and implementation for Go Box (now [Bold Reuse](https://www.boldreuse.com/go-box-relaunches-as-bold-reuse-and-expands-to-new-markets/)), a company that provides subscriptions for reusable to go boxes so that takeout lovers in Portland and San Francisco can support small business and the environment at the same time. I worked with both their front facing website as well as their iOS app.

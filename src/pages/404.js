@@ -31,17 +31,17 @@ const StyledHomeButton = styled(Link)`
 `;
 
 const NotFoundPage = ({ location }) => {
-  const [isMounted, setIsMounted] = useState(false);
+  const [$isMounted, set$isMounted] = useState(false);
 
   useEffect(() => {
-    const timeout = setTimeout(() => setIsMounted(true), navDelay);
+    const timeout = setTimeout(() => set$isMounted(true), navDelay);
     return () => clearTimeout(timeout);
   }, []);
 
   return (
     <Layout location={location}>
       <TransitionGroup component={null}>
-        {isMounted && (
+        {$isMounted && (
           <CSSTransition timeout={500} classNames="fade">
             <StyledMainContainer className="fillHeight">
               <StyledTitle>404</StyledTitle>

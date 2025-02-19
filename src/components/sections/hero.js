@@ -57,10 +57,10 @@ const StyledEmailLink = styled.a`
 `;
 
 const Hero = ({ data }) => {
-  const [isMounted, setIsMounted] = useState(false);
+  const [$isMounted, set$isMounted] = useState(false);
 
   useEffect(() => {
-    const timeout = setTimeout(() => setIsMounted(true), navDelay);
+    const timeout = setTimeout(() => set$isMounted(true), navDelay);
     return () => clearTimeout(timeout);
   }, []);
 
@@ -83,7 +83,9 @@ const Hero = ({ data }) => {
   );
   const five = () => (
     <div style={{ transitionDelay: '500ms' }}>
-      <StyledEmailLink href={`mailto:${email}`}>Get In Touch</StyledEmailLink>
+      <StyledEmailLink href={`mailto:${email}`} target="_blank" rel="nofollow noopener noreferrer">
+        Get In Touch
+      </StyledEmailLink>
     </div>
   );
 
@@ -92,7 +94,7 @@ const Hero = ({ data }) => {
   return (
     <StyledContainer>
       <TransitionGroup component={null}>
-        {isMounted &&
+        {$isMounted &&
           items.map((item, i) => (
             <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
               {item}

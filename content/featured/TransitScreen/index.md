@@ -32,4 +32,4 @@ skills:
 showInProjects: true
 ---
 
-TransitScreen, a company focused on improving commutes with real-time information and gathering, storing and displaying transportation information need a way to show customers that can make better, more sustainable decisions about how they get around by serving dynamic examples of their products. This required heading a team that liased with the marketing department and building a web application from the ground up using Node.js that displayed real-time information and user-based mapping examples.
+TransitScreen (now ActionFigure) needed a way to showcase its real-time transportation products and help customers make more sustainable commuting choices. Leading a team that worked closely with marketing, I built a Node.js web application from the ground up, displaying live data and user-based mapping for products like the original [TransitScreen](https://actionfigure.ai/screen/), [mobile solutions](https://actionfigure.ai/mobile/), [MobilityScore](https://actionfigure.ai/mobilityscore/) and more.
