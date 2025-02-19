@@ -129,7 +129,7 @@ const About = ({ data }) => {
           <SkillsContainer>
             {attrs && attrs.map((attr, i) => <Skill key={i}>{attr}</Skill>)}
           </SkillsContainer>
-          See a complete list of my <Link to="/skills">skills</Link> and
+          Check out my full list of <Link to="/skills">skills</Link> and the{' '}
           <Link to="/tech">technologies I've worked with</Link>.
         </StyledContent>
         <StyledPic>
