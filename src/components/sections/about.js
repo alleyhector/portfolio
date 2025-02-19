@@ -5,6 +5,7 @@ import sr from '@utils/sr';
 import { srConfig, github } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
+import { Link } from 'gatsby';
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
@@ -128,6 +129,8 @@ const About = ({ data }) => {
           <SkillsContainer>
             {attrs && attrs.map((attr, i) => <Skill key={i}>{attr}</Skill>)}
           </SkillsContainer>
+          See a complete list of my <Link to="/skills">skills</Link> and
+          <Link to="/tech">technologies I've worked with</Link>.
         </StyledContent>
         <StyledPic>
           <StyledAvatarLink href={github}>

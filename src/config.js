@@ -48,11 +48,15 @@ module.exports = {
     },
     {
       name: 'App Solutions',
-      url: '/#projects',
+      url: '/#featured',
     },
     {
       name: 'Writing Samples',
       url: '/#writing',
+    },
+    {
+      name: 'Projects',
+      url: '/#projects',
     },
     {
       name: 'Contact',

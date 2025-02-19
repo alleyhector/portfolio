@@ -220,8 +220,8 @@ const Featured = ({ data }) => {
   }, []);
 
   return (
-    <StyledContainer id="projects">
-      <Heading ref={revealTitle}>Web App Solutions</Heading>
+    <StyledContainer id="featured">
+      <Heading ref={revealTitle}>App Solutions</Heading>
 
       <div>
         {featuredProjects &&
