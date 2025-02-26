@@ -282,7 +282,7 @@ const AstroPage = ({ location }) => {
                     <span class="s1"></span>
                     <br />
                   </p>
-                  <p class="p6">
+                  <p id="toc" class="p6">
                     <span class="s2">
                       <b>TABLE OF CONTENTS</b>
                     </span>
