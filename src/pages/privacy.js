@@ -56,7 +56,7 @@ const AstroPage = ({ location }) => {
                   </p>
                   <p class="p3">
                     <span class="s1">
-                      <b>Last updated November 18, 2024</b>
+                      <b>Last updated February 26, 2024</b>
                     </span>
                   </p>
                   <p class="p2">
@@ -1737,7 +1737,7 @@ const AstroPage = ({ location }) => {
                         </td>
                         <td valign="middle" class="td2">
                           <p class="p4">
-                            <span class="s2">Device location</span>
+                            <span class="s2">Device timezone</span>
                           </p>
                         </td>
                         <td valign="middle" class="td3">
