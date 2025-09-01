@@ -18,7 +18,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "postinstall": "gatsby clean"
+    "postinstall": "gatsby clean",
+    "rebuild-sharp": "pnpm rebuild sharp"
   },
   "husky": {
     "hooks": {
