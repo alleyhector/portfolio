@@ -1,5 +1,5 @@
 [build]
-  command = "pnpm install --ignore-scripts=false && gatsby build --verbose"
+  command = "pnpm install --ignore-scripts=false && npm install --platform=linux --arch=x64 sharp && gatsby build --verbose"
   publish = "public"
 
 [build.environment]
