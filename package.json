@@ -13,7 +13,8 @@
   "license": "MIT",
   "pnpm": {
     "overrides": {
-      "sharp": "0.34.3"
+      "sharp": "0.34.3",
+      "workbox-build": "latest"
     }
   },
   "scripts": {
