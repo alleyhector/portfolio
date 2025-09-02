@@ -1,5 +1,5 @@
 [build]
-  command = "pnpm install --ignore-scripts=false && npm install --platform=linux --arch=x64 sharp && gatsby build --verbose"
+  command = "pnpm install --ignore-scripts=false && pnpm rebuild sharp && gatsby build --verbose"
   publish = "public"
 
 [build.environment]
@@ -8,6 +8,7 @@
   SHARP_IGNORE_GLOBAL_LIBVIPS = "1"
   GATSBY_CPU_COUNT = "2"
   NODE_OPTIONS = "--max-old-space-size=4096"
+  SHARP_DIST_BASE_URL = "https://github.com/lovell/sharp-libvips/releases/download/v8.15.0/"
 
 [[build.processing]]
   skip_processing = false
