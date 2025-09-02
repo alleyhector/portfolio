@@ -1,0 +1,13 @@
+[build]
+  command = "pnpm install --ignore-scripts=false && gatsby build"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "18.20.4"
+  NPM_FLAGS = "--legacy-peer-deps"
+  SHARP_IGNORE_GLOBAL_LIBVIPS = "1"
+  GATSBY_CPU_COUNT = "2"
+  NODE_OPTIONS = "--max-old-space-size=4096"
+  SHARP_DIST_BASE_URL = "https://github.com/lovell/sharp-libvips/releases/download/v8.15.0/"
+  GATSBY_LOGGER = "yurnalist"
+  GATSBY_LOG_LEVEL = "verbose"
