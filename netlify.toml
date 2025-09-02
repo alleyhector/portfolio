@@ -1,5 +1,5 @@
 [build]
-  command = "pnpm install --ignore-scripts=false && pnpm add sharp@0.34.3 --force && gatsby build"
+  command = "pnpm install --ignore-scripts=false && gatsby build"
   publish = "public"
 
 [build.environment]

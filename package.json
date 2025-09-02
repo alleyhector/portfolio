@@ -11,6 +11,11 @@
     "gatsby"
   ],
   "license": "MIT",
+  "pnpm": {
+    "overrides": {
+      "sharp": "0.34.3"
+    }
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
