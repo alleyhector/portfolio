@@ -99,7 +99,7 @@ importers:
         specifier: ^4.0.9
         version: 4.0.9
       sharp:
-        specifier: ^0.34.3
+        specifier: 0.34.3
         version: 0.34.3
       smooth-scroll:
         specifier: ^16.1.3
