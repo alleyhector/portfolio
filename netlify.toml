@@ -1,5 +1,5 @@
 [build]
-  command = "pnpm install --ignore-scripts=false && pnpm add sharp@0.34.3 --force && gatsby build --verbose"
+  command = "pnpm install --ignore-scripts=false && pnpm add sharp@0.34.3 --force && gatsby build"
   publish = "public"
 
 [build.environment]
@@ -9,3 +9,5 @@
   GATSBY_CPU_COUNT = "2"
   NODE_OPTIONS = "--max-old-space-size=4096"
   SHARP_DIST_BASE_URL = "https://github.com/lovell/sharp-libvips/releases/download/v8.15.0/"
+  GATSBY_LOGGER = "yurnalist"
+  GATSBY_LOG_LEVEL = "verbose"
