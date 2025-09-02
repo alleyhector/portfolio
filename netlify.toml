@@ -1,5 +1,5 @@
 [build]
-  command = "pnpm install --ignore-scripts=false --foreground-scripts && gatsby build"
+  command = "pnpm install --ignore-scripts=false && gatsby build"
   publish = "public"
 
 [build.environment]
