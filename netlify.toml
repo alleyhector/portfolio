@@ -1,5 +1,5 @@
 [build]
-  command = "rm -rf node_modules pnpm-lock.yaml && pnpm install --ignore-scripts=false && gatsby build --verbose"
+  command = "pnpm install --no-frozen-lockfile --ignore-scripts=false && gatsby build --verbose"
   publish = "public"
 
 [build.environment]
