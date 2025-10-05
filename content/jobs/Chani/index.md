@@ -1,10 +1,10 @@
 ---
 date: '2022-01-01'
 title: 'Director of Product'
-company: 'Chani Nicholas Inc'
+company: 'CHANI'
 location: 'Los Angeles, CA'
 range: 'March 2021 – 2024'
-url: 'https://chaninicholas.com'
+url: 'https://chani.com'
 ---
 
 - Headed the technology department of a queer astrological company
