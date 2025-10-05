@@ -14,6 +14,7 @@ tech:
   - Figma
   - Google Maps
   - Docker
+  - AWS
 company: 'Alta/Motivate/Lyft'
 skills:
   - Agile/SCRUM
@@ -21,7 +22,7 @@ skills:
   - PHP
   - APIs
   - Content Management Systems
-  - Front End Development
+  - Full Stack Development
   - Back End Development
   - Design
   - CSS

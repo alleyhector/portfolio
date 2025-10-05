@@ -7,14 +7,13 @@ external: 'https://www.folxhealth.com/'
 tech:
   - Gatsby.js
   - Butter CMS
-  - Typescript
   - Github
   - Twig
   - Storyblok
   - AWS
   - Netlify
 skills:
-  - Javascript
+  - Typescript
   - React
   - Content Management Systems
   - Front End Development
@@ -23,6 +22,7 @@ skills:
   - Strategy
   - Design
   - Version Control
+company: Folx
 showInProjects: true
 ---
 

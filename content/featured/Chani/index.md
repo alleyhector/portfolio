@@ -6,13 +6,12 @@ github: 'https://github.com/chani-nicholas-inc'
 external: 'https://www.chaninicholas.com/'
 tech:
   - Next.js
-  - Typescript
   - Node.js
   - Tailwind
   - Wordpress
   - Shopify
   - React Native
-  - Appstore
+  - Apple App Store
   - Google Play Store
   - Contentful
   - AWS
@@ -24,10 +23,12 @@ tech:
   - Illustrator
   - Audition
   - Google Maps
+  - Expo
 skills:
   - Engineering Management
   - Agile/SCRUM
-  - Javascript
+  - Typescript
+  - GraphQL
   - APIs
   - Content Management Systems
   - Front End Development
@@ -44,6 +45,7 @@ skills:
   - Research
   - Mobile Development
   - Version Control
+company: Chani Nicholas Inc
 showInProjects: true
 ---
 

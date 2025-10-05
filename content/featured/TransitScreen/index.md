@@ -15,20 +15,20 @@ tech:
   - AWS
   - Github
   - Jira
-  - Typescript
 skills:
   - Agile/SCRUM
   - PHP
   - APIs
-  - Javascript
+  - Typescript
   - React
   - Content Management Systems
-  - Front End Development
+  - Full Stack Development
   - Strategy
   - CSS
   - Marketing
   - Back End Development
   - Mapping
+company: ActionFigure
 showInProjects: true
 ---
 
