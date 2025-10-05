@@ -25,7 +25,7 @@ skills:
   - Marketing
   - Research
 company: ''
-showInProjects: true
+showInProjects: false
 ---
 
 Redesigned portions of the Wordpress website and implemented a Client portal and management area for a gay/POC-owned business that develops and delivers comprehensive, scalable, and cost-effective digital marketing solutions for financial advisors, brokers, and accountants.

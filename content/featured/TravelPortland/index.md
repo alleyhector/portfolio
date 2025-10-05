@@ -27,6 +27,7 @@ skills:
   - Mapping
   - Blogging
   - Events Management
+company: Travel Portland
 showInProjects: true
 ---
 

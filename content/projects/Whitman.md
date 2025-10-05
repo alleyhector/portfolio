@@ -21,7 +21,7 @@ skills:
   - Optimization
   - Javascript
 company: ''
-showInProjects: true
+showInProjects: false
 ---
 
 Redesigned the home and news pages to better visually organize the massive amount of content on this site dedicated to Director of Surgical Services solutions.
